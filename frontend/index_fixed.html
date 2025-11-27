@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soccer Data Dashboard</title>
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Vue 3 CDN -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <!-- Sidebar Component -->
+      <nav class="sidebar">
+        <div class="logo">
+          <i class="fa-regular fa-futbol"></i> SOCCER DATA
+        </div>
+
+        <ul class="menu-list">
+          <li :class="{ active: currentView === 'MainDashboard' }">
+            <a href="#" @click.prevent="currentView = 'MainDashboard'">
+              <i class="fa-solid fa-house"></i> 메인 대시보드
+            </a>
+          </li>
+        </ul>
+
+        <div class="menu-category">정보 & 일정</div>
+        <ul class="menu-list">
+          <li :class="{ active: currentView === 'SoccerNews' }">
+            <a href="#" @click.prevent="currentView = 'SoccerNews'">
+              <i class="fa-regular fa-newspaper"></i> 축구 뉴스
+            </a>
+          </li>
+          <li :class="{ active: currentView === 'MatchSchedule' }">
+            <a href="#" @click.prevent="currentView = 'MatchSchedule'">
+              <i class="fa-regular fa-calendar"></i> 경기 일정
+            </a>
+          </li>
+          <li :class="{ active: currentView === 'Standings' }">
+            <a href="#" @click.prevent="currentView = 'Standings'">
+              <i class="fa-solid fa-list-ol"></i> 순위표
+            </a>
+          </li>
+        </ul>
+
+        <div class="menu-category">데이터 검색</div>
+        <ul class="menu-list">
+          <li :class="{ active: currentView === 'TeamSearch' }">
+            <a href="#" @click.prevent="currentView = 'TeamSearch'">
+              <i class="fa-solid fa-shield-halved"></i> 팀 검색
+            </a>
+          </li>
+          <li :class="{ active: currentView === 'CoachSearch' }">
+            <a href="#" @click.prevent="currentView = 'CoachSearch'">
+              <i class="fa-solid fa-user-tie"></i> 감독/코치 검색
+            </a>
+          </li>
+          <li :class="{ active: currentView === 'PlayerSearch' }">
+            <a href="#" @click.prevent="currentView = 'PlayerSearch'">
+              <i class="fa-solid fa-users"></i> 선수 검색
+            </a>
+          </li>
+        </ul>
+
+        <div class="sidebar-footer">
+          <button class="ai-btn" @click="toggleAiModal"><i class="fa-solid fa-robot"></i> AI Helper</button>
+          <div class="settings">
+            <a href="#"><i class="fa-solid fa-gear"></i> 설정</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- AI Helper Modal -->
+      <div v-if="isAiModalOpen" class="ai-modal-overlay" @click.self="toggleAiModal">
+        <div class="ai-modal">
+          <div class="ai-modal-header">
+            <h3><i class="fa-solid fa-robot"></i> AI Helper</h3>
+            <button class="close-btn" @click="toggleAiModal"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="ai-modal-body">
+            <div class="chat-message ai">
+              <p>안녕하세요! 무엇을 도와드릴까요? 경기 분석이나 선수 정보를 물어보세요.</p>
+            </div>
+            <!-- Example User Message -->
+            <!-- <div class="chat-message user"><p>다음 경기 승률 알려줘</p></div> -->
+          </div>
+          <div class="ai-modal-footer">
+            <input type="text" placeholder="메시지를 입력하세요..." />
+            <button><i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <main class="main-content">
+        <header class="top-header">
+          <h2>{{ currentViewTitle }}</h2>
+          <div class="user-profile">
+            <button class="noti-btn"><i class="fa-solid fa-bell"></i></button>
+            <div class="user-info">
+              <div class="avatar"></div>
+              <span>사용자 님</span>
+            </div>
+          </div>
+        </header>
+
+        <!-- Dynamic Component Rendering -->
+        <component :is="currentView"></component>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- Templates -->
+  
+  <!-- 1. Main Dashboard Template -->
+  <script type="text/x-template" id="main-dashboard-template">
+    <div class="content-body">
+      <div class="section-header">
+        <h3 class="section-title">⭐ 나만의 팀 정보</h3>
+        <div class="team-tabs">
+          <button 
+            v-for="(team, key) in teams" 
+            :key="key"
+            class="tab-btn" 
+            :class="{ active: currentTeamId === key }"
+            @click="changeTeam(key)"
+          >
+           <i v-if="key === 'team1'" class="fa-solid fa-shield-cat"></i>
+           <i v-else-if="key === 'team2'" class="fa-solid fa-feather-pointed"></i>
+           <i v-else class="fa-solid fa-fish-fins"></i>
+            {{ team.name }}
+          </button>
+        </div>
+      </div>
+
+      <div class="dashboard-grid">
+        
+        <article class="card match-card">
+          <div class="card-header-row">
+            <span class="badge">NEXT MATCH</span>
+            <span class="match-date">{{ currentTeamData.nextMatch.date }}</span>
+          </div>
+          <div class="match-display">
+            <div class="team-box">
+              <div class="team-logo my-team">
+                <i :class="currentTeamData.icon"></i>
+              </div>
+              <div class="team-name">{{ currentTeamData.name }}</div>
+            </div>
+            <div class="vs-text">VS</div>
+            <div class="team-box">
+              <div class="team-logo opponent">
+                <i :class="currentTeamData.nextMatch.opponentIcon"></i>
+              </div>
+              <div class="team-name">{{ currentTeamData.nextMatch.opponent }}</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card stats-card">
+          <h4>이번 시즌 성적</h4>
+          <div class="rank">{{ currentTeamData.stats.rank }}</div>
+          <div class="progress-area">
+            <div class="progress-bg">
+              <div class="progress-fill" :style="{ width: currentTeamData.stats.winRate }"></div>
+            </div>
+            <div class="stats-detail">
+              <span>승률 {{ currentTeamData.stats.winRate }}</span>
+              <span>{{ currentTeamData.stats.record }}</span>
+            </div>
+          </div>
+          <div class="recent-form">최근 5경기: {{ currentTeamData.stats.recent }}</div>
+        </article>
+
+        <article class="card news-card">
+          <div class="news-header">
+            <h4>{{ currentTeamData.name }} 최신 뉴스</h4>
+            <span class="more-link">더보기</span>
+          </div>
+          <ul class="simple-news-list">
+            <li v-for="(news, index) in currentTeamData.news" :key="index">
+              • {{ news }}
+            </li>
+          </ul>
+        </article>
+
+        <article class="card ai-card">
+          <div class="ai-top">
+            <span>AI 분석 리포트</span>
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <p class="ai-desc">
+            <strong>{{ currentTeamData.nextMatch.opponent }}</strong> 팀의 전술 패턴 분석이 완료되었습니다. 
+            <br>승리 확률이 <strong>{{ currentTeamData.aiWinRate }}</strong>로 예상됩니다.
+          </p>
+          <button class="report-btn">리포트 확인하기</button>
+        </article>
+
+        <article class="card search-card">
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <h4 class="search-title">데이터 검색</h4>
+          <p class="search-desc">선수, 팀, 감독 정보를<br>빠르게 찾아보세요.</p>
+          <div class="fake-search-bar">
+            키워드를 입력하세요...
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </script>
+
+  <!-- 2. Placeholder Templates for other views -->
+  <script type="text/x-template" id="common-page-template">
+    <div class="content-body">
+      <div class="card" style="min-height: 400px; display: flex; align-items: center; justify-content: center;">
+        <div style="text-align: center; color: #7f8fa6;">
+          <i :class="icon" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+          <h3>{{ title }} 페이지 준비 중입니다.</h3>
+          <p>다음에 만나요!</p>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <!-- 3. 순위표 템플릿 -->
+  <script type="text/x-template" id="standings-template">
+    <div class="content-body">
+      <div class="card data-card">
+        <div v-if="loading" class="loading-state">
+          <i class="fa-solid fa-spinner fa-spin"></i> 데이터를 불러오는 중...
+        </div>
+        <div v-else-if="error" class="error-state">
+          <i class="fa-solid fa-exclamation-triangle"></i> {{ error }}
+        </div>
+        <div v-else>
+          <table class="data-table standings-table">
+            <thead>
+              <tr>
+                <th>순위</th>
+                <th>팀</th>
+                <th>경기</th>
+                <th>승</th>
+                <th>무</th>
+                <th>패</th>
+                <th>득점</th>
+                <th>실점</th>
+                <th>득실차</th>
+                <th>승점</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="team in standings" :key="team.id" :class="{'top-4': team.rank <= 4, 'relegation': team.rank >= 18}">
+                <td class="rank-cell">{{ team.rank }}</td>
+                <td class="team-cell">
+                  <img v-if="team.team_logo" :src="team.team_logo" :alt="team.team_name" class="team-logo-img" />
+                  <span>{{ team.team_name }}</span>
+                </td>
+                <td>{{ team.matches_played }}</td>
+                <td>{{ team.wins }}</td>
+                <td>{{ team.draws }}</td>
+                <td>{{ team.losses }}</td>
+                <td>{{ team.goals_for }}</td>
+                <td>{{ team.goals_against }}</td>
+                <td>{{ team.goal_difference }}</td>
+                <td class="points-cell">{{ team.points }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <!-- 4. 팀 검색 템플릿 -->
+  <script type="text/x-template" id="team-search-template">
+    <div class="content-body">
+      <div class="card data-card">
+        <div class="search-controls">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" v-model="searchQuery" placeholder="팀 이름 검색..." />
+          </div>
+        </div>
+
+        <div v-if="loading" class="loading-state">
+          <i class="fa-solid fa-spinner fa-spin"></i> 데이터를 불러오는 중...
+        </div>
+        <div v-else-if="error" class="error-state">
+          <i class="fa-solid fa-exclamation-triangle"></i> {{ error }}
+        </div>
+        <div v-else>
+          <div class="result-info">총 {{ filteredTeams.length }}개 팀</div>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>팀 ID</th>
+                <th>팀 이름</th>
+                <th>리그</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(team, index) in paginatedTeams" :key="team.id">
+                <td>{{ (currentPage - 1) * itemsPerPage + index + 1 }}</td>
+                <td>{{ team.team_id }}</td>
+                <td>{{ team.team_name }}</td>
+                <td>{{ team.league || '-' }}</td>
+              </tr>
+              <tr v-if="paginatedTeams.length === 0">
+                <td colspan="4" class="no-data">검색 결과가 없습니다.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="pagination" v-if="totalPages > 1">
+            <button @click="currentPage = 1" :disabled="currentPage === 1"><i class="fa-solid fa-angles-left"></i></button>
+            <button @click="currentPage--" :disabled="currentPage === 1"><i class="fa-solid fa-chevron-left"></i></button>
+            <span class="page-info">{{ currentPage }} / {{ totalPages }}</span>
+            <button @click="currentPage++" :disabled="currentPage === totalPages"><i class="fa-solid fa-chevron-right"></i></button>
+            <button @click="currentPage = totalPages" :disabled="currentPage === totalPages"><i class="fa-solid fa-angles-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <!-- 5. 코치 검색 템플릿 -->
+  <script type="text/x-template" id="coach-search-template">
+    <div class="content-body">
+      <div class="card data-card">
+        <div class="search-controls">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" v-model="searchQuery" placeholder="이름 검색..." />
+          </div>
+          <select v-model="teamFilter" class="filter-select">
+            <option value="">전체 팀</option>
+            <option v-for="team in teamList" :key="team" :value="team">{{ team }}</option>
+          </select>
+          <select v-model="positionFilter" class="filter-select">
+            <option value="">전체 직책</option>
+            <option v-for="pos in positionList" :key="pos" :value="pos">{{ pos }}</option>
+          </select>
+        </div>
+
+        <div v-if="loading" class="loading-state">
+          <i class="fa-solid fa-spinner fa-spin"></i> 데이터를 불러오는 중...
+        </div>
+        <div v-else-if="error" class="error-state">
+          <i class="fa-solid fa-exclamation-triangle"></i> {{ error }}
+        </div>
+        <div v-else>
+          <div class="result-info">총 {{ filteredStaff.length }}명</div>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>이름</th>
+                <th>직책</th>
+                <th>소속팀</th>
+                <th>국적</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(s, index) in paginatedStaff" :key="s.id">
+                <td>{{ (currentPage - 1) * itemsPerPage + index + 1 }}</td>
+                <td>{{ s.name }}</td>
+                <td>{{ s.position }}</td>
+                <td>{{ s.team_name }}</td>
+                <td>{{ s.nationality || '-' }}</td>
+              </tr>
+              <tr v-if="paginatedStaff.length === 0">
+                <td colspan="5" class="no-data">검색 결과가 없습니다.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="pagination" v-if="totalPages > 1">
+            <button @click="currentPage = 1" :disabled="currentPage === 1"><i class="fa-solid fa-angles-left"></i></button>
+            <button @click="currentPage--" :disabled="currentPage === 1"><i class="fa-solid fa-chevron-left"></i></button>
+            <span class="page-info">{{ currentPage }} / {{ totalPages }}</span>
+            <button @click="currentPage++" :disabled="currentPage === totalPages"><i class="fa-solid fa-chevron-right"></i></button>
+            <button @click="currentPage = totalPages" :disabled="currentPage === totalPages"><i class="fa-solid fa-angles-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <!-- 6. 선수 검색 템플릿 -->
+  <script type="text/x-template" id="player-search-template">
+    <div class="content-body">
+      <div class="card data-card">
+        <div class="search-controls">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" v-model="searchQuery" placeholder="선수 이름 검색..." />
+          </div>
+          <select v-model="teamFilter" class="filter-select">
+            <option value="">전체 팀</option>
+            <option v-for="team in teamList" :key="team" :value="team">{{ team }}</option>
+          </select>
+          <select v-model="positionFilter" class="filter-select">
+            <option value="">전체 포지션</option>
+            <option v-for="pos in positionList" :key="pos" :value="pos">{{ pos }}</option>
+          </select>
+        </div>
+
+        <div v-if="loading" class="loading-state">
+          <i class="fa-solid fa-spinner fa-spin"></i> 데이터를 불러오는 중...
+        </div>
+        <div v-else-if="error" class="error-state">
+          <i class="fa-solid fa-exclamation-triangle"></i> {{ error }}
+        </div>
+        <div v-else>
+          <div class="result-info">총 {{ filteredPlayers.length }}명</div>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>이름</th>
+                <th>포지션</th>
+                <th>팀</th>
+                <th>국적</th>
+                <th>나이</th>
+                <th>등번호</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(p, index) in paginatedPlayers" :key="p.id">
+                <td>{{ (currentPage - 1) * itemsPerPage + index + 1 }}</td>
+                <td>{{ p.name }}</td>
+                <td>{{ p.position }}</td>
+                <td>{{ p.team_name }}</td>
+                <td>{{ p.nationality || '-' }}</td>
+                <td>{{ p.age || '-' }}</td>
+                <td>{{ p.jersey_number || '-' }}</td>
+              </tr>
+              <tr v-if="paginatedPlayers.length === 0">
+                <td colspan="7" class="no-data">검색 결과가 없습니다.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="pagination" v-if="totalPages > 1">
+            <button @click="currentPage = 1" :disabled="currentPage === 1"><i class="fa-solid fa-angles-left"></i></button>
+            <button @click="currentPage--" :disabled="currentPage === 1"><i class="fa-solid fa-chevron-left"></i></button>
+            <span class="page-info">{{ currentPage }} / {{ totalPages }}</span>
+            <button @click="currentPage++" :disabled="currentPage === totalPages"><i class="fa-solid fa-chevron-right"></i></button>
+            <button @click="currentPage = totalPages" :disabled="currentPage === totalPages"><i class="fa-solid fa-angles-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+</body>
+</html>
