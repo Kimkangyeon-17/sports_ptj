@@ -298,24 +298,25 @@
         </div>
         <div v-else>
           <div class="result-info">총 {{ filteredTeams.length }}개 팀</div>
-          <table class="data-table">
+          <table class="data-table table-fixed">
             <thead>
               <tr>
-                <th>#</th>
-                <th>팀 ID</th>
+                <th style="width: 60px;">로고</th>
                 <th>팀 이름</th>
-                <th>리그</th>
+                <th style="width: 120px;">리그</th>
               </tr>
             </thead>
             <tbody>
               <tr v-for="(team, index) in paginatedTeams" :key="team.id">
-                <td>{{ (currentPage - 1) * itemsPerPage + index + 1 }}</td>
-                <td>{{ team.team_id }}</td>
+                <td class="logo-cell">
+                  <img v-if="getTeamLogo(team.team_name)" :src="getTeamLogo(team.team_name)" :alt="team.team_name" class="team-logo-img" />
+                  <i v-else class="fa-solid fa-shield-halved default-logo"></i>
+                </td>
                 <td>{{ team.team_name }}</td>
-                <td>{{ team.league || '-' }}</td>
+                <td>{{ team.league || 'EPL' }}</td>
               </tr>
               <tr v-if="paginatedTeams.length === 0">
-                <td colspan="4" class="no-data">검색 결과가 없습니다.</td>
+                <td colspan="3" class="no-data">검색 결과가 없습니다.</td>
               </tr>
             </tbody>
           </table>
@@ -359,26 +360,24 @@
         </div>
         <div v-else>
           <div class="result-info">총 {{ filteredStaff.length }}명</div>
-          <table class="data-table">
+          <table class="data-table table-fixed">
             <thead>
               <tr>
-                <th>#</th>
-                <th>이름</th>
-                <th>직책</th>
-                <th>소속팀</th>
-                <th>국적</th>
+                <th style="width: 180px;">이름</th>
+                <th style="width: 220px;">직책</th>
+                <th style="width: 150px;">소속팀</th>
+                <th style="width: 120px;">국적</th>
               </tr>
             </thead>
             <tbody>
               <tr v-for="(s, index) in paginatedStaff" :key="s.id">
-                <td>{{ (currentPage - 1) * itemsPerPage + index + 1 }}</td>
                 <td>{{ s.name }}</td>
                 <td>{{ s.position }}</td>
                 <td>{{ s.team_name }}</td>
                 <td>{{ s.nationality || '-' }}</td>
               </tr>
               <tr v-if="paginatedStaff.length === 0">
-                <td colspan="5" class="no-data">검색 결과가 없습니다.</td>
+                <td colspan="4" class="no-data">검색 결과가 없습니다.</td>
               </tr>
             </tbody>
           </table>
@@ -422,21 +421,19 @@
         </div>
         <div v-else>
           <div class="result-info">총 {{ filteredPlayers.length }}명</div>
-          <table class="data-table">
+          <table class="data-table table-fixed">
             <thead>
               <tr>
-                <th>#</th>
-                <th>이름</th>
-                <th>포지션</th>
-                <th>팀</th>
-                <th>국적</th>
-                <th>나이</th>
-                <th>등번호</th>
+                <th style="width: 150px;">이름</th>
+                <th style="width: 100px;">포지션</th>
+                <th style="width: 150px;">팀</th>
+                <th style="width: 100px;">국적</th>
+                <th style="width: 60px;">나이</th>
+                <th style="width: 70px;">등번호</th>
               </tr>
             </thead>
             <tbody>
               <tr v-for="(p, index) in paginatedPlayers" :key="p.id">
-                <td>{{ (currentPage - 1) * itemsPerPage + index + 1 }}</td>
                 <td>{{ p.name }}</td>
                 <td>{{ p.position }}</td>
                 <td>{{ p.team_name }}</td>
@@ -445,7 +442,7 @@
                 <td>{{ p.jersey_number || '-' }}</td>
               </tr>
               <tr v-if="paginatedPlayers.length === 0">
-                <td colspan="7" class="no-data">검색 결과가 없습니다.</td>
+                <td colspan="6" class="no-data">검색 결과가 없습니다.</td>
               </tr>
             </tbody>
           </table>
