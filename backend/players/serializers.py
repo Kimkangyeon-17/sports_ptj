@@ -6,8 +6,8 @@ class PlayerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Player
         fields = [
-            "id",
-            "player_id",
+            # "id",
+            # "player_id",
             "name",
             "full_name",
             "position",

@@ -6,7 +6,7 @@ class TeamSerializer(serializers.ModelSerializer):
     class Meta:
         model = Team
         fields = [
-            "id",
+            # "id",
             "team_id",
             "team_name",
             "league",
@@ -27,11 +27,11 @@ class StaffSerializer(serializers.ModelSerializer):
     class Meta:
         model = Staff
         fields = [
-            "id",
+            # "id",
             "team_name",
             "position",
             "name",
-            "nationality",
+            # "nationality",
         ]
 
 
