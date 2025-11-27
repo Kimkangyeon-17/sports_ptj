@@ -43,9 +43,20 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django.contrib.sites",
     # Third party apps
     "rest_framework",
+    "rest_framework.authtoken",  # 추가
     "corsheaders",
+    "dj_rest_auth",  # 추가
+    "dj_rest_auth.registration",  # 추가
+    "allauth",  # 추가
+    "allauth.account",  # 추가
+    "allauth.socialaccount",  # 추가
+    "allauth.socialaccount.providers.google",  # 추가
+    # "allauth.socialaccount.providers.kakao",  # 추가
+    "allauth.socialaccount.providers.naver",  # 추가
+    "rest_framework_simplejwt",  # 추가
     # Local apps
     "accounts",
     "teams",
@@ -61,6 +72,7 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
+    "allauth.account.middleware.AccountMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
@@ -152,6 +164,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
         "rest_framework.authentication.SessionAuthentication",
     ],
     "DEFAULT_PERMISSION_CLASSES": [
@@ -160,4 +173,71 @@ REST_FRAMEWORK = {
     # 페이지네이션 비활성화 (프론트엔드에서 직접 처리)
     # "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     # "PAGE_SIZE": 20,
+}
+
+AUTH_USER_MODEL = "accounts.User"
+
+from datetime import timedelta
+
+# JWT Settings
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(hours=2),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
+    "ROTATE_REFRESH_TOKENS": True,
+    "BLACKLIST_AFTER_ROTATION": True,
+    "ALGORITHM": "HS256",
+    "SIGNING_KEY": SECRET_KEY,
+    "AUTH_HEADER_TYPES": ("Bearer",),
+}
+
+# dj-rest-auth Settings
+REST_AUTH = {
+    "USE_JWT": True,
+    "JWT_AUTH_HTTPONLY": False,
+    "USER_DETAILS_SERIALIZER": "accounts.serializers.UserSerializer",
+}
+
+# django-allauth Settings
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_USERNAME_REQUIRED = True
+ACCOUNT_AUTHENTICATION_METHOD = "username"
+ACCOUNT_EMAIL_VERIFICATION = "none"
+
+SITE_ID = 1
+
+SOCIALACCOUNT_PROVIDERS = {
+    "google": {
+        "APP": {
+            "client_id": os.getenv("GOOGLE_CLIENT_ID"),
+            "secret": os.getenv("GOOGLE_CLIENT_SECRET"),
+            "key": "",
+        },
+        "SCOPE": [
+            "profile",
+            "email",
+        ],
+        "AUTH_PARAMS": {
+            "access_type": "online",
+        },
+    },
+    # "kakao": {
+    #     "APP": {
+    #         "client_id": os.getenv("KAKAO_CLIENT_ID"),
+    #         "secret": os.getenv("KAKAO_CLIENT_SECRET"),
+    #         "key": "",
+    #     },
+    #     "SCOPE": [
+    #         "profile_nickname",
+    #     ],
+    #     "AUTH_PARAMS": {
+    #         "access_type": "online",
+    #     },
+    # },
+    "naver": {
+        "APP": {
+            "client_id": os.getenv("NAVER_CLIENT_ID"),
+            "secret": os.getenv("NAVER_CLIENT_SECRET"),
+            "key": "",
+        }
+    },
 }
