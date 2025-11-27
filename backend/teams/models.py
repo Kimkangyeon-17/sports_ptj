@@ -45,3 +45,33 @@ class Staff(models.Model):
 
     def __str__(self):
         return f"{self.name} - {self.position} ({self.team_name})"
+
+
+class TeamStanding(models.Model):
+    """EPL 팀 순위 모델"""
+
+    rank = models.IntegerField(verbose_name="순위")
+    team_name = models.CharField(max_length=100, verbose_name="팀명")
+    team_logo = models.URLField(
+        max_length=500, blank=True, null=True, verbose_name="팀 로고"
+    )
+    points = models.IntegerField(verbose_name="승점")
+    matches_played = models.IntegerField(verbose_name="경기수")
+    wins = models.IntegerField(verbose_name="승")
+    draws = models.IntegerField(verbose_name="무")
+    losses = models.IntegerField(verbose_name="패")
+    goals_for = models.IntegerField(verbose_name="득점")
+    goals_against = models.IntegerField(verbose_name="실점")
+    goal_difference = models.IntegerField(verbose_name="득실차")
+
+    # 타임스탬프
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ["rank"]
+        verbose_name = "팀 순위"
+        verbose_name_plural = "팀 순위들"
+
+    def __str__(self):
+        return f"{self.rank}. {self.team_name}"

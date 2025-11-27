@@ -1,12 +1,17 @@
+import os
+from datetime import date
+from django.conf import settings
+from django.core.management import call_command
 from rest_framework import viewsets, filters
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from .models import Team, Staff
+from .models import Team, Staff, TeamStanding
 from .serializers import (
     TeamSerializer,
     TeamDetailSerializer,
     StaffSerializer,
     StaffDetailSerializer,
+    TeamStandingSerializer,
 )
 from players.models import Player
 from players.serializers import PlayerSerializer
@@ -126,3 +131,86 @@ class StaffViewSet(viewsets.ReadOnlyModelViewSet):
 
         serializer = self.get_serializer(queryset, many=True)
         return Response(serializer.data)
+
+
+class TeamStandingViewSet(viewsets.ReadOnlyModelViewSet):
+    """
+    팀 순위표 조회 API
+    - list: 순위표 전체 조회
+    - retrieve: 특정 팀 순위 조회
+    - 자동 업데이트: 오늘 날짜 데이터가 없으면 자동으로 update_standings 실행
+    """
+
+    queryset = TeamStanding.objects.all()
+    serializer_class = TeamStandingSerializer
+
+    def list(self, request, *args, **kwargs):
+        """
+        순위표 목록 조회 전에 자동으로 업데이트 체크
+        """
+        self.check_and_update_standings()
+        return super().list(request, *args, **kwargs)
+
+    def check_and_update_standings(self):
+        """
+        오늘 날짜의 CSV 파일이 없으면 자동으로 업데이트 실행
+        """
+        csv_dir = os.path.join(settings.BASE_DIR, "data", "standings")
+        today = date.today()
+        csv_filename = os.path.join(
+            csv_dir, f'epl_standings_{today.strftime("%Y_%m_%d")}.csv'
+        )
+
+        # 오늘 날짜 CSV 파일이 없으면 업데이트 실행
+        if not os.path.exists(csv_filename):
+            try:
+                print(
+                    f"📡 오늘({today}) 순위표 데이터가 없습니다. 자동 업데이트를 시작합니다..."
+                )
+                call_command("update_standings")
+                print("✓ 자동 업데이트 완료!")
+            except Exception as e:
+                print(f"⚠️  자동 업데이트 실패: {e}")
+
+    @action(detail=False, methods=["get"])
+    def top(self, request):
+        """
+        상위 N팀 조회
+        query params: n (기본값: 5)
+        """
+        self.check_and_update_standings()
+        n = int(request.query_params.get("n", 5))
+        top_teams = TeamStanding.objects.all()[:n]
+        serializer = self.get_serializer(top_teams, many=True)
+        return Response(serializer.data)
+
+    @action(detail=False, methods=["get"])
+    def bottom(self, request):
+        """
+        하위 N팀 조회 (강등권)
+        query params: n (기본값: 3)
+        """
+        self.check_and_update_standings()
+        n = int(request.query_params.get("n", 3))
+        bottom_teams = TeamStanding.objects.all().order_by("-rank")[:n]
+        serializer = self.get_serializer(bottom_teams, many=True)
+        return Response(serializer.data)
+
+    @action(detail=False, methods=["post"])
+    def force_update(self, request):
+        """
+        수동으로 순위표 강제 업데이트
+        POST /api/standings/force_update/
+        """
+        try:
+            call_command("update_standings", "--force")
+            return Response(
+                {
+                    "status": "success",
+                    "message": "순위표가 성공적으로 업데이트되었습니다.",
+                }
+            )
+        except Exception as e:
+            return Response(
+                {"status": "error", "message": f"업데이트 실패: {str(e)}"}, status=500
+            )
