@@ -154,6 +154,7 @@ const TeamSearch = {
   template: '#team-search-template',
   setup() {
     const teams = ref([]);
+    const teamLogos = ref({});
     const loading = ref(true);
     const error = ref(null);
     const searchQuery = ref('');
@@ -164,15 +165,37 @@ const TeamSearch = {
       loading.value = true;
       error.value = null;
       try {
-        const response = await fetch(`${API_BASE_URL}/teams/`);
-        if (!response.ok) throw new Error('데이터를 불러오는데 실패했습니다.');
-        const data = await response.json();
-        teams.value = parseApiResponse(data);
+        // 팀 데이터와 순위표(로고 정보) 동시 요청
+        const [teamsRes, standingsRes] = await Promise.all([
+          fetch(`${API_BASE_URL}/teams/`),
+          fetch(`${API_BASE_URL}/standings/`)
+        ]);
+        
+        if (!teamsRes.ok) throw new Error('데이터를 불러오는데 실패했습니다.');
+        
+        const teamsData = await teamsRes.json();
+        teams.value = parseApiResponse(teamsData);
+        
+        // 순위표에서 팀 로고 매핑
+        if (standingsRes.ok) {
+          const standingsData = await standingsRes.json();
+          const standings = parseApiResponse(standingsData);
+          standings.forEach(s => {
+            if (s.team_logo) {
+              teamLogos.value[s.team_name] = s.team_logo;
+            }
+          });
+        }
       } catch (e) {
         error.value = e.message;
       } finally {
         loading.value = false;
       }
+    };
+
+    // 팀 이름으로 로고 가져오기
+    const getTeamLogo = (teamName) => {
+      return teamLogos.value[teamName] || null;
     };
 
     const filteredTeams = computed(() => {
@@ -193,7 +216,7 @@ const TeamSearch = {
 
     onMounted(fetchTeams);
 
-    return { teams, loading, error, searchQuery, currentPage, totalPages, paginatedTeams, itemsPerPage, filteredTeams };
+    return { teams, loading, error, searchQuery, currentPage, totalPages, paginatedTeams, itemsPerPage, filteredTeams, getTeamLogo };
   }
 };
 
