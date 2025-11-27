@@ -1,0 +1,28 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+77403,Lukasz Fabianski,Lukasz Fabianski,Lukasz,Fabianski,Lukasz_Fabianski,Goalkeeper,G,22,40,"6' 3""",183 lbs,,1985-04-18T08:00Z,Poland,371,West Ham United
+148987,Alphonse Areola,Alphonse Areola,Alphonse,Areola,Alphonse_Areola,Goalkeeper,G,23,32,"6' 5""",205 lbs,,1993-02-27T08:00Z,France,371,West Ham United
+281564,Mads Hermansen,Mads Hermansen,Mads,Hermansen,Mads_Hermansen,Goalkeeper,G,1,25,"6' 2""",179 lbs,,2000-07-11T07:00Z,Denmark,371,West Ham United
+229967,Max Kilman,Max Kilman,Max,Kilman,Max_Kilman,Defender,D,3,28,"6' 4""",194 lbs,,1997-05-23T07:00Z,England,371,West Ham United
+234143,Igor Julio,Igor Julio,Igor Julio,,Igor_Julio,Defender,D,5,27,"6' 1""",185 lbs,,1998-02-07T08:00Z,Brazil,371,West Ham United
+235129,Kyle Walker-Peters,Kyle Walker-Peters,Kyle,Walker-Peters,Kyle_Walker-Peters,Defender,D,2,28,"5' 8""",137 lbs,,1997-04-13T07:00Z,England,371,West Ham United
+242705,Konstantinos Mavropanos,Konstantinos Mavropanos,Konstantinos,Mavropanos,Konstantinos_Mavropanos,Defender,D,15,27,"6' 4""",205 lbs,,1997-12-11T08:00Z,Greece,371,West Ham United
+250945,Aaron Wan-Bissaka,Aaron Wan-Bissaka,Aaron,Wan-Bissaka,Aaron_Wan-Bissaka,Defender,D,29,27,"6' 0""",159 lbs,,1997-11-26T08:00Z,England,371,West Ham United
+277327,Jean-Clair Todibo,Jean-Clair Todibo,Jean-Clair,Todibo,Jean-Clair_Todibo,Defender,D,25,25,"6' 4""",192 lbs,,1999-12-30T08:00Z,France,371,West Ham United
+350502,Oliver Scarles,Oliver Scarles,Oliver,Scarles,Oliver_Scarles,Defender,D,30,19,"6' 0""",163 lbs,,2005-12-12T08:00Z,England,371,West Ham United
+359796,El Hadji Malick Diouf,El Hadji Malick Diouf,El Hadji Malick,Diouf,El_Hadji_Malick_Diouf,Defender,D,12,20,"6' 0""",,,2004-12-28T08:00Z,Senegal,371,West Ham United
+380182,Ezra Mayers,Ezra Mayers,Ezra,Mayers,Ezra_Mayers,Defender,D,63,18,"6' 0""",,,2007-01-16T08:00Z,England,371,West Ham United
+163111,James Ward-Prowse,James Ward-Prowse,James,Ward-Prowse,James_Ward-Prowse,Midfielder,M,8,31,"5' 10""",146 lbs,,1994-11-01T08:00Z,England,371,West Ham United
+212185,Guido Rodríguez,Guido Rodríguez,Guido,Rodríguez,Guido_Rodríguez,Midfielder,M,24,31,"6' 1""",174 lbs,,1994-04-12T07:00Z,Argentina,371,West Ham United
+230666,Tomás Soucek,Tomás Soucek,Tomás,Soucek,Tomás_Soucek,Midfielder,M,28,30,"6' 4""",190 lbs,,1995-02-27T08:00Z,Czechia,371,West Ham United
+234715,Lucas Paquetá,Lucas Paquetá,Lucas,Paquetá,Lucas_Paquetá,Midfielder,M,10,28,"5' 11""",159 lbs,,1997-08-27T07:00Z,Brazil,371,West Ham United
+239253,Andrew Irving,Andrew Irving,Andrew,Irving,Andrew_Irving,Midfielder,M,39,25,"6' 3""",146 lbs,,2000-05-13T07:00Z,Scotland,371,West Ham United
+310325,Freddie Potts,Freddie Potts,Freddie,Potts,Freddie_Potts,Midfielder,M,32,22,"6' 0""",,,2003-09-12T07:00Z,England,371,West Ham United
+333240,Soungoutou Magassa,Soungoutou Magassa,Soungoutou,Magassa,Soungoutou_Magassa,Midfielder,M,27,22,"6' 2""",174 lbs,,2003-10-08T07:00Z,France,371,West Ham United
+346820,Mateus Fernandes,Mateus Fernandes,Mateus,Fernandes,Mateus_Fernandes,Midfielder,M,18,21,"5' 10""",159 lbs,,2004-07-10T07:00Z,Portugal,371,West Ham United
+348777,George Earthy,George Earthy,George,Earthy,George_Earthy,Midfielder,M,40,21,"5' 11""",152 lbs,,2004-09-05T07:00Z,England,371,West Ham United
+138924,Callum Wilson,Callum Wilson,Callum,Wilson,Callum_Wilson,Forward,F,9,33,"5' 11""",146 lbs,,1992-02-27T08:00Z,England,371,West Ham United
+170257,Niclas Füllkrug,Niclas Füllkrug,Niclas,Füllkrug,Niclas_Füllkrug,Forward,F,11,32,"6' 2""",183 lbs,,1993-02-09T08:00Z,Germany,371,West Ham United
+201089,Jarrod Bowen,Jarrod Bowen,Jarrod,Bowen,Jarrod_Bowen,Forward,F,20,28,"5' 9""",152 lbs,,1996-12-20T08:00Z,England,371,West Ham United
+284792,Crysencio Summerville,Crysencio Summerville,Crysencio,Summerville,Crysencio_Summerville,Forward,F,7,24,"5' 9""",139 lbs,,2001-10-30T08:00Z,Netherlands,371,West Ham United
+346915,Callum Marshall,Callum Marshall,Callum,Marshall,Callum_Marshall,Forward,F,50,20,"5' 8""",,,2004-11-28T08:00Z,Northern Ireland,371,West Ham United
+361429,Luis Guilherme,Luis Guilherme,Luis Guilherme,Lira Dos Santos,Luis_Guilherme,Forward,F,17,19,"5' 10""",161 lbs,,2006-02-09T08:00Z,Brazil,371,West Ham United

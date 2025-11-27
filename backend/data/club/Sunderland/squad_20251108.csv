@@ -1,0 +1,42 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+138481,Simon Moore,Simon Moore,Simon,Moore,Simon_Moore,Goalkeeper,G,21,35,"6' 3""",183 lbs,,1990-05-19T07:00Z,England,366,Sunderland
+281705,Anthony Patterson,Anthony Patterson,Anthony,Patterson,Anthony_Patterson,Goalkeeper,G,1,25,"6' 2""",170 lbs,,2000-05-10T07:00Z,England,366,Sunderland
+301449,Robin Roefs,Robin Roefs,Robin,Roefs,Robin_Roefs,Goalkeeper,G,22,22,"6' 4""",159 lbs,,2003-01-17T08:00Z,Netherlands,366,Sunderland
+304207,Blondy Nna Noukeu,Blondy Nna Noukeu,Blondy,Nna Noukeu,Blondy_Nna_Noukeu,Goalkeeper,G,16,24,"6' 0""",152 lbs,,2001-05-31T07:00Z,Cameroon,366,Sunderland
+165892,Arthur Masuaku,Arthur Masuaku,Arthur,Masuaku,Arthur_Masuaku,Defender,D,26,32,"5' 10""",174 lbs,,1993-11-07T08:00Z,Congo DR,366,Sunderland
+214188,Nordi Mukiele,Nordi Mukiele,Nordi,Mukiele,Nordi_Mukiele,Defender,D,20,28,"6' 2""",183 lbs,,1997-11-01T08:00Z,France,366,Sunderland
+215401,Omar Alderete,Omar Alderete,Omar,Alderete,Omar_Alderete,Defender,D,15,28,"6' 2""",170 lbs,,1996-12-26T08:00Z,Paraguay,366,Sunderland
+230081,Reinildo Mandava,Reinildo Mandava,Reinildo,Mandava,Reinildo_Mandava,Defender,D,17,31,"6' 0""",161 lbs,,1994-01-21T08:00Z,Mozambique,366,Sunderland
+243545,Ajibola Alese,Ajibola Alese,Ajibola,Alese,Ajibola_Alese,Defender,D,42,24,"6' 4""",174 lbs,,2001-01-17T08:00Z,England,366,Sunderland
+243578,Jenson Arron Jones,Jenson Arron Jones,Jenson Arron,Jones,Jenson_Arron_Jones,Defender,D,51,19,"6' 0""",,,2006-06-26T07:00Z,England,366,Sunderland
+264828,Lutsharel Geertruida,Lutsharel Geertruida,Lutsharel,Geertruida,Lutsharel_Geertruida,Defender,D,6,25,"6' 0""",150 lbs,,2000-07-18T07:00Z,Netherlands,366,Sunderland
+282645,Danny Ballard,Danny Ballard,Danny,Ballard,Danny_Ballard,Defender,D,5,26,"6' 2""",185 lbs,,1999-09-22T07:00Z,Northern Ireland,366,Sunderland
+290207,Trai Hume,Trai Hume,Trai,Hume,Trai_Hume,Defender,D,32,23,"5' 11""",163 lbs,,2002-03-18T08:00Z,Northern Ireland,366,Sunderland
+293344,Joseph Anderson,Joseph Anderson,Joseph,Anderson,Joseph_Anderson,Defender,D,45,24,"6' 2""",179 lbs,,2001-02-06T08:00Z,England,366,Sunderland
+297167,Timothee Pembélé,Timothee Pembélé,Timothee,Pembélé,Timothee_Pembélé,Defender,D,,23,"6' 0""",174 lbs,,2002-09-09T07:00Z,France,366,Sunderland
+301487,Dennis Cirkin,Dennis Cirkin,Dennis,Cirkin,Dennis_Cirkin,Defender,D,3,23,"6' 0""",172 lbs,,2002-04-06T08:00Z,England,366,Sunderland
+312592,Leo Fuhr Hjelde,Leo Fuhr Hjelde,Leo Fuhr,Hjelde,Leo_Fuhr_Hjelde,Defender,D,33,22,"6' 3""",163 lbs,,2003-08-26T07:00Z,Norway,366,Sunderland
+329644,Zak Johnson,Zak Johnson,Zak,Johnson,Zak_Johnson,Defender,D,41,21,"6' 0""",172 lbs,,2004-07-30T07:00Z,England,366,Sunderland
+56820,Abdoullah Ba,Abdoullah Ba,Abdoullah,Ba,Abdoullah_Ba,Midfielder,M,,22,"5' 11""",152 lbs,,2003-07-31T07:00Z,France,366,Sunderland
+149981,Granit Xhaka,Granit Xhaka,Granit,Xhaka,Granit_Xhaka,Midfielder,M,34,33,"6' 1""",174 lbs,,1992-09-27T07:00Z,Switzerland,366,Sunderland
+191574,Luke O'Nien,Luke O'Nien,Luke,O'Nien,Luke_O'Nien,Midfielder,M,13,30,"5' 9""",161 lbs,,1994-11-21T08:00Z,England,366,Sunderland
+236211,Jack Whittaker,Jack Whittaker,Jack,Whittaker,Jack_Whittaker,Midfielder,M,53,19,,,,2006-10-14T07:00Z,England,366,Sunderland
+283179,Daniel Neil,Daniel Neil,Daniel,Neil,Daniel_Neil,Midfielder,M,4,23,"6' 1""",137 lbs,,2001-12-13T08:00Z,England,366,Sunderland
+288340,Enzo Le Fée,Enzo Le Fée,Enzo,Le Fée,Enzo_Le_Fée,Midfielder,M,28,25,"5' 7""",139 lbs,,2000-02-03T08:00Z,France,366,Sunderland
+296464,Jay Matete,Jay Matete,Jay,Matete,Jay_Matete,Midfielder,M,,24,"5' 9""",132 lbs,,2001-02-11T08:00Z,England,366,Sunderland
+324991,Habib Diarra,Habib Diarra,Mouhamadou,Diarra,Habib_Diarra,Midfielder,M,19,21,"5' 10""",161 lbs,,2004-01-03T08:00Z,Senegal,366,Sunderland
+329646,Ben Middlemas,Ben Middlemas,Ben,Middlemas,Ben_Middlemas,Midfielder,M,55,20,"6' 0""",139 lbs,,2004-12-13T08:00Z,England,366,Sunderland
+340240,Noah Sadiki,Noah Sadiki,Noah,Sadiki,Noah_Sadiki,Midfielder,M,27,20,"5' 5""",128 lbs,,2004-12-17T08:00Z,Belgium,366,Sunderland
+356295,Chris Rigg,Chris Rigg,Chris,Rigg,Chris_Rigg,Midfielder,M,11,18,"5' 10""",141 lbs,,2007-06-18T07:00Z,England,366,Sunderland
+381475,Harrison Jones,Harrison Jones,Harrison,Jones,Harrison_Jones,Midfielder,M,50,20,"5' 10""",150 lbs,,2004-12-25T08:00Z,England,366,Sunderland
+409743,Jayden Jones,Jayden Jones,Jayden,Jones,Jayden_Jones,Midfielder,M,52,19,"5' 9""",,,2006-11-03T08:00Z,England,366,Sunderland
+169661,Bertrand Traoré,Bertrand Traoré,Bertrand,Traoré,Bertrand_Traoré,Forward,F,25,30,"5' 11""",161 lbs,,1995-09-06T07:00Z,Burkina Faso,366,Sunderland
+264251,Ian Poveda-Ocampo,Ian Poveda-Ocampo,Ian,Poveda-Ocampo,Ian_Poveda-Ocampo,Forward,F,36,25,"5' 6""",139 lbs,,2000-02-09T08:00Z,Colombia,366,Sunderland
+265915,Wilson Isidor,Wilson Isidor,Wilson,Isidor,Wilson_Isidor,Forward,F,18,25,"6' 1""",172 lbs,,2000-08-27T07:00Z,France,366,Sunderland
+282229,Brian Brobbey,Brian Brobbey,Brian,Brobbey,Brian_Brobbey,Forward,F,9,23,"5' 11""",172 lbs,,2002-02-01T08:00Z,Netherlands,366,Sunderland
+317404,Simon Adingra,Simon Adingra,Simon,Adingra,Simon_Adingra,Forward,F,24,23,"5' 9""",150 lbs,,2002-01-01T08:00Z,Ivory Coast,366,Sunderland
+323084,Romaine Mundle,Romaine Mundle,Romaine,Mundle,Romaine_Mundle,Forward,F,14,22,"5' 11""",132 lbs,,2003-04-24T07:00Z,England,366,Sunderland
+332862,Eliezer Mayenda,Eliezer Mayenda,Eliezer,Mayenda,Eliezer_Mayenda,Forward,F,12,20,"5' 11""",163 lbs,,2005-05-08T07:00Z,Spain,366,Sunderland
+359150,Ahmed Abdullahi,Ahmed Abdullahi,Ahmed,Abdullahi,Ahmed_Abdullahi,Forward,F,29,21,"5' 11""",163 lbs,,2004-06-19T07:00Z,Nigeria,366,Sunderland
+360062,Chemsdine Talbi,Chemsdine Talbi,Chemsdine,Talbi,Chemsdine_Talbi,Forward,F,7,20,"5' 9""",141 lbs,,2005-05-09T07:00Z,Morocco,366,Sunderland
+387460,Tymur Tutierov,Tymur Tutierov,Tymur,Tutierov,Tymur_Tutierov,Forward,F,57,20,"6' 0""",152 lbs,,2005-06-11T07:00Z,Ukraine,366,Sunderland

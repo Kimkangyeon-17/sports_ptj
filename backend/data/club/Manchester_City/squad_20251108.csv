@@ -1,0 +1,33 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+151855,Stefan Ortega,Stefan Ortega,Stefan,Ortega,Stefan_Ortega,Goalkeeper,G,18,33,"6' 1""",192 lbs,,1992-11-06T08:00Z,Germany,382,Manchester City
+177545,Marcus Bettinelli,Marcus Bettinelli,Marcus,Bettinelli,Marcus_Bettinelli,Goalkeeper,G,13,33,"6' 4""",181 lbs,,1992-05-24T07:00Z,England,382,Manchester City
+217092,Gianluigi Donnarumma,Gianluigi Donnarumma,Gianluigi,Donnarumma,Gianluigi_Donnarumma,Goalkeeper,G,25,26,"6' 5""",196 lbs,,1999-02-25T08:00Z,Italy,382,Manchester City
+307118,James Trafford,James Trafford,James,Trafford,James_Trafford,Goalkeeper,G,1,23,"6' 6""",183 lbs,,2002-10-10T07:00Z,England,382,Manchester City
+157974,John Stones,John Stones,John,Stones,John_Stones,Defender,D,5,31,"6' 2""",174 lbs,,1994-05-28T07:00Z,England,382,Manchester City
+159248,Nathan Aké,Nathan Aké,Nathan,Aké,Nathan_Aké,Defender,D,6,30,"5' 11""",163 lbs,,1995-02-18T08:00Z,Netherlands,382,Manchester City
+234878,Rúben Dias,Rúben Dias,Rúben,Dias,Rúben_Dias,Defender,D,3,28,"6' 2""",168 lbs,,1997-05-14T07:00Z,Portugal,382,Manchester City
+272512,Rayan Aït-Nouri,Rayan Aït-Nouri,Rayan,Aït-Nouri,Rayan_Aït-Nouri,Defender,D,21,24,"5' 11""",152 lbs,,2001-06-06T07:00Z,Algeria,382,Manchester City
+299910,Josko Gvardiol,Josko Gvardiol,Josko,Gvardiol,Josko_Gvardiol,Defender,D,24,23,"6' 1""",174 lbs,,2002-01-23T08:00Z,Croatia,382,Manchester City
+325564,Rico Lewis,Rico Lewis,Rico,Lewis,Rico_Lewis,Defender,D,82,20,"5' 7""",139 lbs,,2004-11-21T08:00Z,England,382,Manchester City
+362211,Abdukodir Khusanov,Abdukodir Khusanov,Abdukodir,Khusanov,Abdukodir_Khusanov,Defender,D,45,21,"6' 1""",183 lbs,,2004-02-29T08:00Z,Uzbekistan,382,Manchester City
+374220,Stephen Mfuni,Stephen Mfuni,Stephen,Mfuni,Stephen_Mfuni,Defender,D,91,17,,,,2008-02-12T08:00Z,England,382,Manchester City
+390094,Kaden Braithwaite,Kaden Braithwaite,Kaden,Braithwaite,Kaden_Braithwaite,Defender,D,61,17,"6' 4""",163 lbs,,2008-02-08T08:00Z,England,382,Manchester City
+154595,Mateo Kovacic,Mateo Kovacic,Mateo,Kovacic,Mateo_Kovacic,Midfielder,M,8,31,"5' 10""",172 lbs,,1994-05-06T07:00Z,Croatia,382,Manchester City
+199833,Bernardo Silva,Bernardo Silva,Bernardo,Silva,Bernardo_Silva,Midfielder,M,20,31,"5' 8""",141 lbs,,1994-08-10T07:00Z,Portugal,382,Manchester City
+223453,Kalvin Phillips,Kalvin Phillips,Kalvin,Phillips,Kalvin_Phillips,Midfielder,M,44,29,"5' 10""",159 lbs,,1995-12-02T08:00Z,England,382,Manchester City
+231828,Rodri,Rodri,Rodri,,Rodri,Midfielder,M,16,29,"6' 3""",181 lbs,Madrid,1996-06-22T07:00Z,Spain,382,Manchester City
+250787,Phil Foden,Phil Foden,Phil,Foden,Phil_Foden,Midfielder,M,47,25,"5' 7""",139 lbs,,2000-05-28T07:00Z,England,382,Manchester City
+261328,Tijjani Reijnders,Tijjani Reijnders,Tijjani,Reijnders,Tijjani_Reijnders,Midfielder,M,4,27,"5' 10""",161 lbs,,1998-07-29T07:00Z,Netherlands,382,Manchester City
+298008,Rayan Cherki,Rayan Cherki,Rayan,Cherki,Rayan_Cherki,Midfielder,M,10,22,"5' 11""",157 lbs,,2003-08-17T07:00Z,France,382,Manchester City
+303785,Matheus Nunes,Matheus Nunes,Matheus,Nunes,Matheus_Nunes,Midfielder,M,27,27,"6' 0""",172 lbs,,1998-08-27T07:00Z,Portugal,382,Manchester City
+307111,Oscar Bobb,Oscar Bobb,Oscar,Bobb,Oscar_Bobb,Midfielder,M,52,22,"5' 10""",152 lbs,,2003-07-12T07:00Z,Norway,382,Manchester City
+323986,Nico González,Nico González,Nico,González,Nico_González,Midfielder,M,14,23,"6' 2""",192 lbs,,2002-01-03T08:00Z,Spain,382,Manchester City
+328464,Nico O'Reilly,Nico O'Reilly,Nico,O'Reilly,Nico_O'Reilly,Midfielder,M,33,20,"5' 10""",170 lbs,,2005-03-21T08:00Z,England,382,Manchester City
+358577,Divine Mukasa,Divine Mukasa,Divine,Mukasa,Divine_Mukasa,Midfielder,M,63,18,"5' 11""",,,2007-08-22T07:00Z,England,382,Manchester City
+253989,Erling Haaland,Erling Haaland,Erling,Haaland,Erling_Haaland,Forward,F,9,25,"6' 5""",192 lbs,,2000-07-21T07:00Z,Norway,382,Manchester City
+283672,Jérémy Doku,Jérémy Doku,Jérémy,Doku,Jérémy_Doku,Forward,F,11,23,"5' 8""",146 lbs,,2002-05-27T07:00Z,Belgium,382,Manchester City
+303745,Omar Marmoush,Omar Marmoush,Omar,Marmoush,Omar_Marmoush,Forward,F,7,26,"5' 11""",179 lbs,,1999-02-07T08:00Z,Egypt,382,Manchester City
+304470,Savinho,Savinho,Savinho,,Savinho,Forward,F,26,21,"5' 10""",146 lbs,,2004-04-10T07:00Z,Brazil,382,Manchester City
+354137,Jaden Heskey,Jaden Heskey,Jaden,Heskey,Jaden_Heskey,Forward,F,,19,"5' 11""",,,2005-12-17T08:00Z,England,382,Manchester City
+378369,Reigan Heskey,Reigan Heskey,Reigan,Heskey,Reigan_Heskey,Forward,F,,17,"6' 0""",,,2008-01-18T08:00Z,England,382,Manchester City
+395463,Ryan Mcaidoo,Ryan Mcaidoo,Ryan,Mcaidoo,Ryan_Mcaidoo,Forward,F,56,17,"5' 9""",,,2008-06-24T07:00Z,England,382,Manchester City

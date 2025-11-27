@@ -1,0 +1,31 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+195738,Walter Benítez,Walter Benítez,Walter,Benítez,Walter_Benítez,Goalkeeper,G,44,32,"6' 3""",201 lbs,,1993-01-19T08:00Z,Argentina,384,Crystal Palace
+205981,Remi Matthews,Remi Matthews,Remi,Matthews,Remi_Matthews,Goalkeeper,G,31,31,"6' 0""",172 lbs,,1994-02-10T08:00Z,England,384,Crystal Palace
+234172,Dean Henderson,Dean Henderson,Dean,Henderson,Dean_Henderson,Goalkeeper,G,1,28,"6' 2""",185 lbs,,1997-03-12T08:00Z,England,384,Crystal Palace
+127865,Nathaniel Clyne,Nathaniel Clyne,Nathaniel,Clyne,Nathaniel_Clyne,Defender,D,17,34,"5' 9""",148 lbs,,1991-04-05T08:00Z,England,384,Crystal Palace
+146679,Daniel Muñoz,Daniel Muñoz,Daniel,Muñoz,Daniel_Muñoz,Defender,D,2,29,"5' 11""",161 lbs,,1996-05-26T07:00Z,Colombia,384,Crystal Palace
+228319,Borna Sosa,Borna Sosa,Borna,Sosa,Borna_Sosa,Defender,D,24,27,"6' 2""",172 lbs,,1998-01-21T08:00Z,Croatia,384,Crystal Palace
+265907,Marc Guéhi,Marc Guéhi,Marc,Guéhi,Marc_Guéhi,Defender,D,6,25,"6' 0""",174 lbs,,2000-07-13T07:00Z,England,384,Crystal Palace
+265918,Maxence Lacroix,Maxence Lacroix,Maxence,Lacroix,Maxence_Lacroix,Defender,D,5,25,"6' 3""",192 lbs,,2000-04-06T07:00Z,France,384,Crystal Palace
+272585,Chris Richards,Chris Richards,Chris,Richards,Chris_Richards,Defender,D,26,25,"6' 2""",192 lbs,,2000-03-28T08:00Z,USA,384,Crystal Palace
+300853,Tyrick Mitchell,Tyrick Mitchell,Tyrick,Mitchell,Tyrick_Mitchell,Defender,D,3,26,"5' 9""",150 lbs,,1999-09-01T07:00Z,England,384,Crystal Palace
+307870,Chadi Riad,Chadi Riad,Chadi,Riad,Chadi_Riad,Defender,D,34,22,"6' 1""",172 lbs,,2003-06-17T07:00Z,Morocco,384,Crystal Palace
+358084,Caleb Kporha,Caleb Kporha,Caleb,Kporha,Caleb_Kporha,Defender,D,38,19,"5' 7""",148 lbs,,2006-07-15T07:00Z,England,384,Crystal Palace
+386252,Jaydee Canvot,Jaydee Canvot,Jaydee,Canvot,Jaydee_Canvot,Defender,D,23,19,"6' 2""",163 lbs,,2006-07-29T07:00Z,France,384,Crystal Palace
+168421,Will Hughes,Will Hughes,Will,Hughes,Will_Hughes,Midfielder,M,19,30,"6' 1""",161 lbs,,1995-04-17T07:00Z,England,384,Crystal Palace
+197399,Jefferson Lerma,Jefferson Lerma,Jefferson,Lerma,Jefferson_Lerma,Midfielder,M,8,31,"5' 10""",152 lbs,,1994-10-25T07:00Z,Colombia,384,Crystal Palace
+219362,Daichi Kamada,Daichi Kamada,Daichi,Kamada,Daichi_Kamada,Midfielder,M,18,29,"6' 0""",168 lbs,,1996-08-05T07:00Z,Japan,384,Crystal Palace
+266628,Cheick Doucouré,Cheick Doucouré,Cheick,Doucouré,Cheick_Doucouré,Midfielder,M,28,25,"5' 11""",161 lbs,,2000-01-08T08:00Z,Mali,384,Crystal Palace
+291468,Justin Devenny,Justin Devenny,Justin,Devenny,Justin_Devenny,Midfielder,M,55,22,"5' 10""",161 lbs,,2003-10-11T07:00Z,Northern Ireland,384,Crystal Palace
+297370,Yeremy Pino,Yeremy Pino,Yeremy,Pino,Yeremy_Pino,Midfielder,M,10,23,"5' 8""",141 lbs,,2002-10-20T07:00Z,Spain,384,Crystal Palace
+297775,Naouirou Ahamada,Naouirou Ahamada,Naouirou,Ahamada,Naouirou_Ahamada,Midfielder,M,29,23,"6' 0""",161 lbs,,2002-03-29T08:00Z,France,384,Crystal Palace
+333419,Adam Wharton,Adam Wharton,Adam,Wharton,Adam_Wharton,Midfielder,M,20,21,"6' 0""",170 lbs,,2004-02-06T08:00Z,England,384,Crystal Palace
+345213,Kaden Rodney,Kaden Rodney,Kaden,Rodney,Kaden_Rodney,Midfielder,M,42,21,"6' 2""",148 lbs,,2004-10-07T07:00Z,England,384,Crystal Palace
+356208,Romain Esse,Romain Esse,Romain,Esse,Romain_Esse,Midfielder,M,21,20,"5' 9""",148 lbs,,2005-05-13T07:00Z,England,384,Crystal Palace
+363444,Rio Cardines,Rio Cardines,Rio,Cardines,Rio_Cardines,Midfielder,M,59,19,"5' 9""",,,2006-07-01T07:00Z,Trinidad and Tobago,384,Crystal Palace
+380716,Asher Agbinone,Asher Agbinone,Asher,Agbinone,Asher_Agbinone,Midfielder,M,64,20,"5' 10""",150 lbs,,2005-09-28T07:00Z,England,384,Crystal Palace
+386256,Christantus Uche,Christantus Uche,Christantus,Uche,Christantus_Uche,Midfielder,M,12,22,"6' 3""",183 lbs,,2003-05-19T07:00Z,Nigeria,384,Crystal Palace
+241012,Ismaïla Sarr,Ismaïla Sarr,Ismaïla,Sarr,Ismaïla_Sarr,Forward,F,7,27,"6' 1""",168 lbs,,1998-02-25T08:00Z,Senegal,384,Crystal Palace
+241187,Jean-Philippe Mateta,Jean-Philippe Mateta,Jean-Philippe,Mateta,Jean-Philippe_Mateta,Forward,F,14,28,"6' 4""",192 lbs,,1997-06-28T07:00Z,France,384,Crystal Palace
+259486,Eddie Nketiah,Eddie Nketiah,Eddie,Nketiah,Eddie_Nketiah,Forward,F,9,26,"5' 9""",159 lbs,,1999-05-30T07:00Z,England,384,Crystal Palace
+357338,Zach Marsh,Zach Marsh,Zach,Marsh,Zach_Marsh,Forward,F,63,20,"5' 9""",130 lbs,,2005-10-06T07:00Z,England,384,Crystal Palace

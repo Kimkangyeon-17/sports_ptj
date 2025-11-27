@@ -1,0 +1,27 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+149517,Benjamin Lecomte,Benjamin Lecomte,Benjamin,Lecomte,Benjamin_Lecomte,Goalkeeper,G,23,34,"6' 1""",172 lbs,,1991-04-26T07:00Z,France,370,Fulham
+153765,Bernd Leno,Bernd Leno,Bernd,Leno,Bernd_Leno,Goalkeeper,G,1,33,"6' 2""",181 lbs,,1992-03-04T08:00Z,Germany,370,Fulham
+190974,Kenny Tete,Kenny Tete,Kenny,Tete,Kenny_Tete,Defender,D,2,30,"5' 11""",157 lbs,,1995-10-09T07:00Z,Netherlands,370,Fulham
+196081,Joachim Andersen,Joachim Andersen,Joachim,Andersen,Joachim_Andersen,Defender,D,5,29,"6' 4""",190 lbs,,1996-05-31T07:00Z,Denmark,370,Fulham
+197163,Timothy Castagne,Timothy Castagne,Timothy,Castagne,Timothy_Castagne,Defender,D,21,29,"6' 1""",174 lbs,,1995-12-05T08:00Z,Belgium,370,Fulham
+222396,Antonee Robinson,Antonee Robinson,Antonee,Robinson,Antonee_Robinson,Defender,D,33,28,"6' 0""",152 lbs,,1997-08-08T07:00Z,USA,370,Fulham
+230963,Issa Diop,Issa Diop,Issa,Diop,Issa_Diop,Defender,D,31,28,"6' 4""",203 lbs,,1997-01-09T08:00Z,France,370,Fulham
+252031,Jorge Cuenca,Jorge Cuenca,Jorge,Cuenca,Jorge_Cuenca,Defender,D,15,25,"6' 3""",163 lbs,,1999-11-17T08:00Z,Spain,370,Fulham
+263110,Calvin Bassey,Calvin Bassey,Calvin,Bassey,Calvin_Bassey,Defender,D,3,25,"6' 1""",168 lbs,,1999-12-31T08:00Z,Nigeria,370,Fulham
+365953,Samuel Amissah,Samuel Amissah,Samuel,Amissah,Samuel_Amissah,Defender,D,35,18,"6' 0""",161 lbs,,2007-03-07T08:00Z,England,370,Fulham
+140033,Tom Cairney,Tom Cairney,Tom,Cairney,Tom_Cairney,Midfielder,M,10,34,"6' 1""",183 lbs,,1991-01-20T08:00Z,Scotland,370,Fulham
+193246,Harrison Reed,Harrison Reed,Harrison,Reed,Harrison_Reed,Midfielder,M,6,30,"5' 11""",159 lbs,,1995-01-27T08:00Z,England,370,Fulham
+218998,Sander Berge,Sander Berge,Sander,Berge,Sander_Berge,Midfielder,M,16,27,"6' 5""",212 lbs,,1998-02-14T08:00Z,Norway,370,Fulham
+222300,Sasa Lukic,Sasa Lukic,Sasa,Lukic,Sasa_Lukic,Midfielder,M,20,29,"6' 0""",168 lbs,,1996-08-13T07:00Z,Serbia,370,Fulham
+241328,Ryan Sessegnon,Ryan Sessegnon,Ryan,Sessegnon,Ryan_Sessegnon,Midfielder,M,30,25,"5' 10""",152 lbs,,2000-05-18T07:00Z,England,370,Fulham
+266697,Emile Smith Rowe,Emile Smith Rowe,Emile,Smith Rowe,Emile_Smith_Rowe,Midfielder,M,32,25,"6' 0""",172 lbs,,2000-07-28T07:00Z,England,370,Fulham
+400112,Seth Ridgeon,Seth Ridgeon,Seth,Ridgeon,Seth_Ridgeon,Midfielder,M,,17,"5' 7""",,,2008-09-12T07:00Z,England,370,Fulham
+409541,Josh King,Josh King,Josh,King,Josh_King,Midfielder,M,24,18,"6' 2""",161 lbs,,2007-01-03T08:00Z,England,370,Fulham
+167060,Raúl Jiménez,Raúl Jiménez,Raúl,Jiménez,Raúl_Jiménez,Forward,F,7,34,"6' 3""",168 lbs,Hidalgo,1991-05-05T07:00Z,Mexico,370,Fulham
+175063,Alex Iwobi,Alex Iwobi,Alex,Iwobi,Alex_Iwobi,Forward,F,17,29,"5' 11""",163 lbs,,1996-05-03T07:00Z,Nigeria,370,Fulham
+194801,Harry Wilson,Harry Wilson,Harry,Wilson,Harry_Wilson,Forward,F,8,28,"5' 8""",139 lbs,,1997-03-22T08:00Z,Wales,370,Fulham
+220626,Adama Traoré,Adama Traoré,Adama,Traoré,Adama_Traoré,Forward,F,11,29,"5' 10""",190 lbs,,1996-01-25T08:00Z,Spain,370,Fulham
+228298,Samuel Chukwueze,Samuel Chukwueze,Samuel,Chukwueze,Samuel_Chukwueze,Forward,F,19,26,"5' 8""",152 lbs,,1999-05-22T07:00Z,Nigeria,370,Fulham
+301525,Rodrigo Muniz,Rodrigo Muniz,Rodrigo,Muniz,Rodrigo_Muniz,Forward,F,9,24,"5' 10""",148 lbs,,2001-05-04T07:00Z,Brazil,370,Fulham
+330764,Kevin,Kevin,Kevin,,Kevin,Forward,F,22,22,"5' 9""",157 lbs,,2003-01-04T08:00Z,Brazil,370,Fulham
+369363,Jonah Kusi-Asare,Jonah Kusi-Asare,Jonah,Kusi-Asare,Jonah_Kusi-Asare,Forward,F,18,18,"6' 5""",183 lbs,,2007-07-04T07:00Z,Sweden,370,Fulham

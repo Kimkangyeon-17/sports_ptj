@@ -1,0 +1,27 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+42250,Tom Heaton,Tom Heaton,Tom,Heaton,Tom_Heaton,Goalkeeper,G,22,39,"6' 2""",185 lbs,,1986-04-15T08:00Z,England,360,Manchester United
+274272,Altay Bayindir,Altay Bayindir,Altay,Bayindir,Altay_Bayindir,Goalkeeper,G,1,27,"6' 6""",192 lbs,,1998-04-14T07:00Z,Turkey,360,Manchester United
+301425,Senne Lammens,Senne Lammens,Senne,Lammens,Senne_Lammens,Goalkeeper,G,31,23,"6' 4""",152 lbs,,2002-07-07T07:00Z,Belgium,360,Manchester United
+157073,Harry Maguire,Harry Maguire,Harry,Maguire,Harry_Maguire,Defender,D,5,32,"6' 4""",196 lbs,,1993-03-05T08:00Z,England,360,Manchester United
+167127,Luke Shaw,Luke Shaw,Luke,Shaw,Luke_Shaw,Defender,D,23,30,"5' 10""",174 lbs,,1995-07-12T07:00Z,England,360,Manchester United
+233937,Lisandro Martínez,Lisandro Martínez,Lisandro,Martínez,Lisandro_Martínez,Defender,D,6,27,"5' 9""",159 lbs,,1998-01-18T08:00Z,Argentina,360,Manchester United
+238902,Diogo Dalot,Diogo Dalot,Diogo,Dalot,Diogo_Dalot,Defender,D,2,26,"6' 0""",172 lbs,,1999-03-18T08:00Z,Portugal,360,Manchester United
+239349,Matthijs de Ligt,Matthijs de Ligt,Matthijs,de Ligt,Matthijs_de_Ligt,Defender,D,4,26,"6' 2""",194 lbs,,1999-08-12T07:00Z,Netherlands,360,Manchester United
+239350,Noussair Mazraoui,Noussair Mazraoui,Noussair,Mazraoui,Noussair_Mazraoui,Defender,D,3,27,"6' 0""",139 lbs,,1997-11-14T08:00Z,Morocco,360,Manchester United
+259863,Tyrell Malacia,Tyrell Malacia,Tyrell,Malacia,Tyrell_Malacia,Defender,D,12,26,"5' 7""",148 lbs,,1999-08-17T07:00Z,Netherlands,360,Manchester United
+340206,Leny Yoro,Leny Yoro,Leny,Yoro,Leny_Yoro,Defender,D,15,19,"6' 3""",183 lbs,,2005-11-13T08:00Z,France,360,Manchester United
+347052,Tyler Fredricson,Tyler Fredricson,Tyler,Fredricson,Tyler_Fredricson,Defender,D,33,20,"6' 0""",152 lbs,,2005-02-23T08:00Z,England,360,Manchester United
+356044,Ayden Heaven,Ayden Heaven,Ayden,Heaven,Ayden_Heaven,Defender,D,26,19,"6' 2""",170 lbs,,2006-09-22T07:00Z,England,360,Manchester United
+366781,Patrick Dorgu,Patrick Dorgu,Patrick,Dorgu,Patrick_Dorgu,Defender,D,13,21,"6' 1""",150 lbs,,2004-10-26T07:00Z,Denmark,360,Manchester United
+387634,Diego León,Diego León,Diego,León,Diego_León,Defender,D,35,18,"5' 10""",181 lbs,,2007-04-03T07:00Z,Paraguay,360,Manchester United
+124091,Bruno Fernandes,Bruno Fernandes,Bruno,Fernandes,Bruno_Fernandes,Midfielder,M,8,31,"5' 10""",146 lbs,,1994-09-08T07:00Z,Portugal,360,Manchester United
+173666,Casemiro,Casemiro,Casemiro,,Casemiro,Midfielder,M,18,33,"6' 1""",183 lbs,,1992-02-23T08:00Z,Brazil,360,Manchester United
+231167,Mason Mount,Mason Mount,Mason,Mount,Mason_Mount,Midfielder,M,7,26,"5' 11""",168 lbs,,1999-01-10T08:00Z,England,360,Manchester United
+241468,Manuel Ugarte,Manuel Ugarte,Manuel,Ugarte,Manuel_Ugarte,Midfielder,M,25,24,"6' 0""",170 lbs,,2001-04-11T07:00Z,Uruguay,360,Manchester United
+328466,Kobbie Mainoo,Kobbie Mainoo,Kobbie,Mainoo,Kobbie_Mainoo,Midfielder,M,37,20,"5' 9""",159 lbs,,2005-04-19T07:00Z,England,360,Manchester United
+259902,Matheus Cunha,Matheus Cunha,Matheus,Cunha,Matheus_Cunha,Forward,F,10,26,"6' 0""",168 lbs,,1999-05-27T07:00Z,Brazil,360,Manchester United
+271170,Bryan Mbeumo,Bryan Mbeumo,Bryan,Mbeumo,Bryan_Mbeumo,Forward,F,19,26,"5' 8""",139 lbs,,1999-08-07T07:00Z,Cameroon,360,Manchester United
+276327,Joshua Zirkzee,Joshua Zirkzee,Joshua,Zirkzee,Joshua_Zirkzee,Forward,F,11,24,"6' 4""",183 lbs,,2001-05-22T07:00Z,Netherlands,360,Manchester United
+289155,Benjamin Sesko,Benjamin Sesko,Benjamin,Sesko,Benjamin_Sesko,Forward,F,30,22,"6' 5""",185 lbs,,2003-05-31T07:00Z,Slovenia,360,Manchester United
+291630,Amad,Amad,Amad,,Amad,Forward,F,16,23,"5' 8""",159 lbs,,2002-07-11T07:00Z,Ivory Coast,360,Manchester United
+375738,Chido Obi,Chido Obi,Chido,Obi,Chido_Obi,Forward,F,32,17,"6' 2""",150 lbs,,2007-11-29T08:00Z,Denmark,360,Manchester United

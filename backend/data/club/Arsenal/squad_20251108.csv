@@ -1,0 +1,30 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+169532,Kepa Arrizabalaga,Kepa Arrizabalaga,Kepa,Arrizabalaga,Kepa_Arrizabalaga,Goalkeeper,G,13,31,"6' 2""",183 lbs,,1994-10-03T07:00Z,Spain,359,Arsenal
+196176,David Raya,David Raya,David,Raya,David_Raya,Goalkeeper,G,1,30,"6' 0""",174 lbs,,1995-09-15T07:00Z,Spain,359,Arsenal
+341729,Alexei Rojas,Alexei Rojas,Alexei,Rojas,Alexei_Rojas,Goalkeeper,G,51,20,"6' 2""",170 lbs,,2005-09-28T07:00Z,Colombia,359,Arsenal
+343573,Tommy Setford,Tommy Setford,Tommy,Setford,Tommy_Setford,Goalkeeper,G,35,19,"6' 1""",168 lbs,,2006-03-13T08:00Z,England,359,Arsenal
+236322,Gabriel Magalhães,Gabriel Magalhães,Gabriel,Magalhães,Gabriel_Magalhães,Defender,D,6,27,"6' 3""",172 lbs,,1997-12-19T08:00Z,Brazil,359,Arsenal
+241077,Ben White,Ben White,Ben,White,Ben_White,Defender,D,4,28,"6' 1""",168 lbs,,1997-10-08T07:00Z,England,359,Arsenal
+277385,William Saliba,William Saliba,William,Saliba,William_Saliba,Defender,D,2,24,"6' 4""",203 lbs,,2001-03-24T08:00Z,France,359,Arsenal
+282716,Jurriën Timber,Jurriën Timber,Jurriën,Timber,Jurriën_Timber,Defender,D,12,24,"5' 10""",172 lbs,,2001-06-17T07:00Z,Netherlands,359,Arsenal
+292062,Piero Hincapié,Piero Hincapié,Piero,Hincapié,Piero_Hincapié,Defender,D,5,23,"6' 0""",170 lbs,,2002-01-09T08:00Z,Ecuador,359,Arsenal
+298329,Riccardo Calafiori,Riccardo Calafiori,Riccardo,Calafiori,Riccardo_Calafiori,Defender,D,33,23,"6' 2""",190 lbs,,2002-05-19T07:00Z,Italy,359,Arsenal
+328497,Cristhian Mosquera,Cristhian Mosquera,Cristhian,Mosquera,Cristhian_Mosquera,Defender,D,3,21,"6' 3""",172 lbs,,2004-06-27T07:00Z,Spain,359,Arsenal
+352758,Myles Lewis-Skelly,Myles Lewis-Skelly,Myles,Lewis-Skelly,Myles_Lewis-Skelly,Defender,D,49,19,"5' 10""",159 lbs,,2006-09-26T07:00Z,England,359,Arsenal
+178077,Christian Nørgaard,Christian Nørgaard,Christian,Nørgaard,Christian_Nørgaard,Midfielder,M,16,31,"6' 2""",161 lbs,,1994-03-10T08:00Z,Denmark,359,Arsenal
+203669,Martin Ødegaard,Martin Ødegaard,Martin,Ødegaard,Martin_Ødegaard,Midfielder,M,8,26,"5' 10""",150 lbs,,1998-12-17T08:00Z,Norway,359,Arsenal
+209581,Mikel Merino,Mikel Merino,Mikel,Merino,Mikel_Merino,Midfielder,M,23,29,"6' 2""",183 lbs,,1996-06-22T07:00Z,Spain,359,Arsenal
+238262,Declan Rice,Declan Rice,Declan,Rice,Declan_Rice,Midfielder,M,41,26,"6' 2""",183 lbs,,1999-01-14T08:00Z,England,359,Arsenal
+251400,Eberechi Eze,Eberechi Eze,Eberechi,Eze,Eberechi_Eze,Midfielder,M,10,27,"5' 10""",161 lbs,,1998-06-29T07:00Z,England,359,Arsenal
+287266,Martín Zubimendi,Martín Zubimendi,Martín,Zubimendi,Martín_Zubimendi,Midfielder,M,36,26,"5' 11""",161 lbs,,1999-02-02T08:00Z,Spain,359,Arsenal
+349733,Ethan Nwaneri,Ethan Nwaneri,Ethan,Nwaneri,Ethan_Nwaneri,Midfielder,M,22,18,"5' 9""",152 lbs,,2007-03-21T07:00Z,England,359,Arsenal
+397263,Max Dowman,Max Dowman,Max,Dowman,Max_Dowman,Midfielder,M,56,15,"6' 0""",,,2009-12-31T08:00Z,England,359,Arsenal
+174980,Leandro Trossard,Leandro Trossard,Leandro,Trossard,Leandro_Trossard,Forward,F,19,30,"5' 8""",132 lbs,,1994-12-04T08:00Z,Belgium,359,Arsenal
+217289,Gabriel Jesus,Gabriel Jesus,Gabriel,Jesus,Gabriel_Jesus,Forward,F,9,28,"5' 9""",161 lbs,,1997-04-03T08:00Z,Brazil,359,Arsenal
+231182,Kai Havertz,Kai Havertz,Kai,Havertz,Kai_Havertz,Forward,F,29,26,"6' 4""",183 lbs,,1999-06-11T07:00Z,Germany,359,Arsenal
+258906,Viktor Gyökeres,Viktor Gyökeres,Viktor,Gyökeres,Viktor_Gyökeres,Forward,F,14,27,"6' 2""",196 lbs,,1998-06-04T07:00Z,Sweden,359,Arsenal
+269844,Gabriel Martinelli,Gabriel Martinelli,Gabriel,Martinelli,Gabriel_Martinelli,Forward,F,11,24,"5' 10""",163 lbs,,2001-06-18T07:00Z,Brazil,359,Arsenal
+280555,Bukayo Saka,Bukayo Saka,Bukayo,Saka,Bukayo_Saka,Forward,F,7,24,"5' 10""",159 lbs,,2001-09-05T07:00Z,England,359,Arsenal
+293236,Noni Madueke,Noni Madueke,Noni,Madueke,Noni_Madueke,Forward,F,20,23,"6' 0""",163 lbs,,2002-03-10T08:00Z,England,359,Arsenal
+329556,Charles Sagoe Junior,Charles Sagoe Junior,Charles,Sagoe Junior,Charles_Sagoe_Junior,Forward,F,53,21,,,,2004-07-24T07:00Z,England,359,Arsenal
+390975,Andre Annous,Andre Annous,Andre,Annous,Andre_Annous,Forward,F,71,17,"5' 11""",,,2007-12-28T08:00Z,England,359,Arsenal

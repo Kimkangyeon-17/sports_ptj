@@ -1,0 +1,31 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+42359,John Ruddy,John Ruddy,John,Ruddy,John_Ruddy,Goalkeeper,G,26,39,"6' 4""",212 lbs,,1986-10-24T07:00Z,England,361,Newcastle United
+141705,Mark Gillespie,Mark Gillespie,Mark,Gillespie,Mark_Gillespie,Goalkeeper,G,29,33,"6' 4""",183 lbs,,1992-03-27T08:00Z,England,361,Newcastle United
+161715,Nick Pope,Nick Pope,Nick,Pope,Nick_Pope,Goalkeeper,G,1,33,"6' 3""",168 lbs,,1992-04-19T07:00Z,England,361,Newcastle United
+236015,Aaron Ramsdale,Aaron Ramsdale,Aaron,Ramsdale,Aaron_Ramsdale,Goalkeeper,G,32,27,"6' 3""",192 lbs,,1998-05-14T07:00Z,England,361,Newcastle United
+326220,Max Thompson,Max Thompson,Max,Thompson,Max_Thompson,Goalkeeper,G,31,21,"6' 2""",,,2004-08-01T07:00Z,England,361,Newcastle United
+106139,Lewis Hall,Lewis Hall,Lewis,Hall,Lewis_Hall,Defender,D,3,21,"5' 10""",161 lbs,,2004-09-08T07:00Z,England,361,Newcastle United
+143637,Kieran Trippier,Kieran Trippier,Kieran,Trippier,Kieran_Trippier,Defender,D,2,35,"5' 10""",157 lbs,,1990-09-19T07:00Z,England,361,Newcastle United
+156867,Jamaal Lascelles,Jamaal Lascelles,Jamaal,Lascelles,Jamaal_Lascelles,Defender,D,6,31,"6' 2""",194 lbs,,1993-11-11T08:00Z,England,361,Newcastle United
+172922,Emil Krafth,Emil Krafth,Emil,Krafth,Emil_Krafth,Defender,D,17,31,"6' 0""",183 lbs,,1994-08-02T07:00Z,Sweden,361,Newcastle United
+179233,Fabian Schär,Fabian Schär,Fabian,Schär,Fabian_Schär,Defender,D,5,33,"6' 1""",183 lbs,,1991-12-20T08:00Z,Switzerland,361,Newcastle United
+198138,Dan Burn,Dan Burn,Dan,Burn,Dan_Burn,Defender,D,33,33,"6' 6""",192 lbs,,1992-05-09T07:00Z,England,361,Newcastle United
+274633,Sven Botman,Sven Botman,Sven,Botman,Sven_Botman,Defender,D,4,25,"6' 4""",179 lbs,,2000-01-12T08:00Z,Netherlands,361,Newcastle United
+294344,Harrison Ashby,Harrison Ashby,Harrison,Ashby,Harrison_Ashby,Defender,D,30,23,"5' 10""",137 lbs,,2001-11-14T08:00Z,Scotland,361,Newcastle United
+299641,Valentino Livramento,Valentino Livramento,Valentino,Livramento,Valentino_Livramento,Defender,D,21,22,"6' 0""",141 lbs,,2002-11-12T08:00Z,England,361,Newcastle United
+303444,Malick Thiaw,Malick Thiaw,Malick,Thiaw,Malick_Thiaw,Defender,D,12,24,"6' 3""",174 lbs,,2001-08-08T07:00Z,Germany,361,Newcastle United
+346874,Alex Murphy,Alex Murphy,Alex,Murphy,Alex_Murphy,Defender,D,37,21,"6' 2""",172 lbs,,2004-06-25T07:00Z,Republic of Ireland,361,Newcastle United
+172836,Jacob Murphy,Jacob Murphy,Jacob,Murphy,Jacob_Murphy,Midfielder,M,23,30,"5' 10""",161 lbs,,1995-02-24T08:00Z,England,361,Newcastle United
+202232,Joelinton,Joelinton,Joelinton,,Joelinton,Midfielder,M,7,29,"6' 1""",179 lbs,,1996-08-14T07:00Z,Brazil,361,Newcastle United
+218522,Bruno Guimarães,Bruno Guimarães,Bruno,Guimarães,Bruno_Guimarães,Midfielder,M,39,27,"6' 0""",161 lbs,,1997-11-16T08:00Z,Brazil,361,Newcastle United
+243386,Harvey Barnes,Harvey Barnes,Harvey,Barnes,Harvey_Barnes,Midfielder,M,11,27,"5' 9""",146 lbs,,1997-12-09T08:00Z,England,361,Newcastle United
+259517,Joe Willock,Joe Willock,Joe,Willock,Joe_Willock,Midfielder,M,28,26,"5' 10""",157 lbs,,1999-08-20T07:00Z,England,361,Newcastle United
+261047,Sandro Tonali,Sandro Tonali,Sandro,Tonali,Sandro_Tonali,Midfielder,M,8,25,"5' 11""",172 lbs,,2000-05-08T07:00Z,Italy,361,Newcastle United
+286090,Jacob Ramsey,Jacob Ramsey,Jacob,Ramsey,Jacob_Ramsey,Midfielder,M,41,24,"5' 11""",163 lbs,,2001-05-28T07:00Z,England,361,Newcastle United
+349078,Lewis Miley,Lewis Miley,Lewis,Miley,Lewis_Miley,Midfielder,M,67,19,"6' 1""",159 lbs,,2006-05-01T07:00Z,England,361,Newcastle United
+224077,Yoane Wissa,Yoane Wissa,Yoane,Wissa,Yoane_Wissa,Forward,F,9,29,"5' 9""",161 lbs,,1996-09-03T07:00Z,Congo DR,361,Newcastle United
+268782,Anthony Gordon,Anthony Gordon,Anthony,Gordon,Anthony_Gordon,Forward,F,10,24,"6' 0""",159 lbs,,2001-02-24T08:00Z,England,361,Newcastle United
+296622,Anthony Elanga,Anthony Elanga,Anthony,Elanga,Anthony_Elanga,Forward,F,20,23,"5' 10""",152 lbs,,2002-04-27T07:00Z,Sweden,361,Newcastle United
+298349,Nick Woltemade,Nick Woltemade,Nick,Woltemade,Nick_Woltemade,Forward,F,27,23,"6' 6""",196 lbs,,2002-02-14T08:00Z,Germany,361,Newcastle United
+319431,William Osula,William Osula,William,Osula,William_Osula,Forward,F,18,22,"5' 11""",179 lbs,,2003-08-04T07:00Z,Denmark,361,Newcastle United
+371584,Park Seung-Soo,Park Seung-Soo,Seung-Soo,Park,Park_Seung-Soo,Forward,F,64,18,"6' 0""",137 lbs,,2007-03-17T07:00Z,,361,Newcastle United

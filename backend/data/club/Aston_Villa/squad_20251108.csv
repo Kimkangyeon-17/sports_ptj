@@ -1,0 +1,32 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+132233,Marco Bizot,Marco Bizot,Marco,Bizot,Marco_Bizot,Goalkeeper,G,40,34,"6' 4""",192 lbs,,1991-03-10T08:00Z,Netherlands,362,Aston Villa
+158626,Emiliano Martínez,Emiliano Martínez,Emiliano,Martínez,Emiliano_Martínez,Goalkeeper,G,23,33,"6' 5""",192 lbs,,1992-09-02T07:00Z,Argentina,362,Aston Villa
+235319,James Wright,James Wright,James,Wright,James_Wright,Goalkeeper,G,64,20,"6' 2""",,,2004-12-02T08:00Z,England,362,Aston Villa
+368316,Sam Proctor,Sam Proctor,Sam,Proctor,Sam_Proctor,Goalkeeper,G,52,18,"6' 2""",,,2006-12-21T08:00Z,England,362,Aston Villa
+409811,Rhys Oakley,Rhys Oakley,Rhys,Oakley,Rhys_Oakley,Goalkeeper,G,95,17,"6' 4""",,,2008-09-16T07:00Z,England,362,Aston Villa
+160115,Lucas Digne,Lucas Digne,Lucas,Digne,Lucas_Digne,Defender,D,12,32,"5' 10""",161 lbs,,1993-07-20T07:00Z,France,362,Aston Villa
+181312,Tyrone Mings,Tyrone Mings,Tyrone,Mings,Tyrone_Mings,Defender,D,5,32,"6' 5""",170 lbs,,1993-03-13T08:00Z,England,362,Aston Villa
+204679,Victor Lindelöf,Victor Lindelöf,Victor,Lindelöf,Victor_Lindelöf,Defender,D,3,31,"6' 2""",174 lbs,,1994-07-17T07:00Z,Sweden,362,Aston Villa
+231859,Ezri Konsa,Ezri Konsa,Ezri,Konsa,Ezri_Konsa,Defender,D,4,28,"6' 0""",161 lbs,,1997-10-23T07:00Z,England,362,Aston Villa
+234698,Matty Cash,Matty Cash,Matty,Cash,Matty_Cash,Defender,D,2,28,"6' 1""",172 lbs,,1997-08-07T07:00Z,Poland,362,Aston Villa
+251100,Pau Torres,Pau Torres,Pau,Torres,Pau_Torres,Defender,D,14,28,"6' 3""",174 lbs,,1997-01-16T08:00Z,Spain,362,Aston Villa
+281125,Ian Maatsen,Ian Maatsen,Ian,Maatsen,Ian_Maatsen,Defender,D,22,23,"5' 10""",126 lbs,,2002-03-10T08:00Z,Netherlands,362,Aston Villa
+310607,Lamare Bogarde,Lamare Bogarde,Lamare,Bogarde,Lamare_Bogarde,Defender,D,26,21,"6' 0""",168 lbs,,2004-01-05T08:00Z,Netherlands,362,Aston Villa
+329187,Travis Patterson,Travis Patterson,Travis,Patterson,Travis_Patterson,Defender,D,55,20,"5' 10""",139 lbs,,2005-10-06T07:00Z,England,362,Aston Villa
+356080,Andrés García,Andrés García,Andrés,García,Andrés_García,Defender,D,16,22,"6' 1""",170 lbs,,2003-02-07T08:00Z,Spain,362,Aston Villa
+152469,Ross Barkley,Ross Barkley,Ross,Barkley,Ross_Barkley,Midfielder,M,6,31,"6' 2""",168 lbs,,1993-12-05T08:00Z,England,362,Aston Villa
+162843,John McGinn,John McGinn,John,McGinn,John_McGinn,Midfielder,M,7,31,"5' 10""",150 lbs,,1994-10-18T07:00Z,Scotland,362,Aston Villa
+193297,Youri Tielemans,Youri Tielemans,Youri,Tielemans,Youri_Tielemans,Midfielder,M,8,28,"5' 9""",159 lbs,,1997-05-07T07:00Z,Belgium,362,Aston Villa
+214375,Emiliano Buendía,Emiliano Buendía,Emiliano,Buendía,Emiliano_Buendía,Midfielder,M,10,28,"5' 8""",159 lbs,,1996-12-25T08:00Z,Argentina,362,Aston Villa
+250936,Boubacar Kamara,Boubacar Kamara,Boubacar,Kamara,Boubacar_Kamara,Midfielder,M,44,25,"6' 0""",150 lbs,,1999-11-23T08:00Z,France,362,Aston Villa
+280806,Harvey Elliott,Harvey Elliott,Harvey,Elliott,Harvey_Elliott,Midfielder,M,9,22,"5' 7""",139 lbs,,2003-04-04T08:00Z,England,362,Aston Villa
+304799,Amadou Onana,Amadou Onana,Amadou,Onana,Amadou_Onana,Midfielder,M,24,24,"6' 5""",168 lbs,,2001-08-16T07:00Z,Belgium,362,Aston Villa
+369870,Ben Broggio,Ben Broggio,Ben,Broggio,Ben_Broggio,Midfielder,M,62,18,"5' 11""",163 lbs,,2007-01-29T08:00Z,England,362,Aston Villa
+372939,Aidan Borland,Aidan Borland,Aidan,Borland,Aidan_Borland,Midfielder,M,54,18,"5' 10""",141 lbs,,2007-04-25T07:00Z,Scotland,362,Aston Villa
+377820,Jamaldeen Jimoh,Jamaldeen Jimoh,Jamaldeen,Jimoh,Jamaldeen_Jimoh,Midfielder,M,20,19,"6' 0""",157 lbs,,2006-10-02T07:00Z,England,362,Aston Villa
+393425,Bradley Burrowes,Bradley Burrowes,Bradley,Burrowes,Bradley_Burrowes,Midfielder,M,83,17,"5' 7""",,,2008-03-04T08:00Z,England,362,Aston Villa
+198825,Ollie Watkins,Ollie Watkins,Ollie,Watkins,Ollie_Watkins,Forward,F,11,29,"5' 11""",163 lbs,,1995-12-30T08:00Z,England,362,Aston Villa
+259481,Donyell Malen,Donyell Malen,Donyell,Malen,Donyell_Malen,Forward,F,17,26,"5' 9""",150 lbs,,1999-01-19T08:00Z,Netherlands,362,Aston Villa
+259836,Jadon Sancho,Jadon Sancho,Jadon,Sancho,Jadon_Sancho,Forward,F,19,25,"5' 11""",168 lbs,,2000-03-25T08:00Z,England,362,Aston Villa
+265653,Morgan Rogers,Morgan Rogers,Morgan,Rogers,Morgan_Rogers,Forward,F,27,23,"6' 2""",174 lbs,,2002-07-26T07:00Z,England,362,Aston Villa
+288924,Evann Guessand,Evann Guessand,Evann,Guessand,Evann_Guessand,Forward,F,29,24,"6' 1""",172 lbs,,2001-07-01T07:00Z,France,362,Aston Villa

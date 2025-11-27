@@ -1,0 +1,26 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+7441,Mark Travers,Mark Travers,Mark,Travers,Mark_Travers,Goalkeeper,G,12,26,"6' 3""",181 lbs,,1999-05-18T07:00Z,Republic of Ireland,368,Everton
+148515,Tom King,Tom King,Tom,King,Tom_King,Goalkeeper,G,31,30,"6' 4""",174 lbs,,1995-03-09T08:00Z,Wales,368,Everton
+159443,Jordan Pickford,Jordan Pickford,Jordan,Pickford,Jordan_Pickford,Goalkeeper,G,1,31,"6' 1""",181 lbs,,1994-03-07T08:00Z,England,368,Everton
+293346,Harry Tyrer,Harry Tyrer,Harry,Tyrer,Harry_Tyrer,Goalkeeper,G,53,23,"6' 4""",,,2001-12-06T08:00Z,England,368,Everton
+4946,Michael Keane,Michael Keane,Michael,Keane,Michael_Keane,Defender,D,5,32,"6' 3""",181 lbs,,1993-01-11T08:00Z,England,368,Everton
+131639,Seamus Coleman,Seamus Coleman,Seamus,Coleman,Seamus_Coleman,Defender,D,23,37,"5' 10""",148 lbs,,1988-10-11T07:00Z,Republic of Ireland,368,Everton
+155226,James Tarkowski,James Tarkowski,James,Tarkowski,James_Tarkowski,Defender,D,6,32,"6' 1""",179 lbs,,1992-11-19T08:00Z,England,368,Everton
+262594,Vitaliy Mykolenko,Vitaliy Mykolenko,Vitaliy,Mykolenko,Vitaliy_Mykolenko,Defender,D,16,26,"5' 11""",157 lbs,,1999-05-29T07:00Z,Ukraine,368,Everton
+271191,Nathan Patterson,Nathan Patterson,Nathan,Patterson,Nathan_Patterson,Defender,D,2,24,"6' 2""",183 lbs,,2001-10-16T07:00Z,Scotland,368,Everton
+283586,Jake O'Brien,Jake O'Brien,Jake,O'Brien,Jake_O'Brien,Defender,D,15,24,"6' 6""",203 lbs,,2001-05-15T07:00Z,Republic of Ireland,368,Everton
+286965,Jarrad Branthwaite,Jarrad Branthwaite,Jarrad,Branthwaite,Jarrad_Branthwaite,Defender,D,32,23,"6' 5""",192 lbs,,2002-06-27T07:00Z,England,368,Everton
+328017,Elijah Campbell,Elijah Campbell,Elijah,Campbell,Elijah_Campbell,Defender,D,73,21,"6' 0""",139 lbs,,2004-08-02T07:00Z,England,368,Everton
+379032,Adam Aznou,Adam Aznou,Adam,Aznou,Adam_Aznou,Defender,D,39,19,"5' 10""",152 lbs,,2006-06-02T07:00Z,Morocco,368,Everton
+144517,Idrissa Gueye,Idrissa Gueye,Idrissa,Gueye,Idrissa_Gueye,Midfielder,M,27,36,"5' 9""",146 lbs,,1989-09-26T07:00Z,Senegal,368,Everton
+172850,Jack Grealish,Jack Grealish,Jack,Grealish,Jack_Grealish,Midfielder,M,18,30,"5' 11""",170 lbs,,1995-09-10T07:00Z,England,368,Everton
+252389,Kiernan Dewsbury-Hall,Kiernan Dewsbury-Hall,Kiernan,Dewsbury-Hall,Kiernan_Dewsbury-Hall,Midfielder,M,22,27,"5' 10""",174 lbs,,1998-09-06T07:00Z,England,368,Everton
+276220,James Garner,James Garner,James,Garner,James_Garner,Midfielder,M,37,24,"6' 1""",172 lbs,,2001-03-13T08:00Z,England,368,Everton
+302162,Carlos Alcaraz,Carlos Alcaraz,Carlos,Alcaraz,Carlos_Alcaraz,Midfielder,M,24,22,"5' 9""",150 lbs,,2002-11-30T08:00Z,Argentina,368,Everton
+310599,Tim Iroegbunam,Tim Iroegbunam,Tim,Iroegbunam,Tim_Iroegbunam,Midfielder,M,42,22,"6' 0""",152 lbs,,2003-06-30T07:00Z,England,368,Everton
+311963,Merlin Rohl,Merlin Rohl,Merlin,Rohl,Merlin_Rohl,Midfielder,M,34,23,"6' 4""",163 lbs,,2002-07-05T07:00Z,Germany,368,Everton
+340640,Tyler Dibling,Tyler Dibling,Tyler,Dibling,Tyler_Dibling,Midfielder,M,20,19,"5' 10""",159 lbs,,2006-02-17T08:00Z,England,368,Everton
+268641,Iliman Ndiaye,Iliman Ndiaye,Iliman,Ndiaye,Iliman_Ndiaye,Forward,F,10,25,"5' 11""",152 lbs,,2000-03-06T08:00Z,Senegal,368,Everton
+273495,Dwight McNeil,Dwight McNeil,Dwight,McNeil,Dwight_McNeil,Forward,F,7,25,"6' 0""",150 lbs,,1999-11-22T08:00Z,England,368,Everton
+289511,Beto,Beto,Beto,,Beto,Forward,F,9,27,"6' 4""",192 lbs,,1998-01-31T08:00Z,Guinea-Bissau,368,Everton
+301166,Thierno Barry,Thierno Barry,Thierno,Barry,Thierno_Barry,Forward,F,11,23,"6' 5""",181 lbs,,2002-10-21T07:00Z,France,368,Everton

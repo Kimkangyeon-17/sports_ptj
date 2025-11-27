@@ -1,0 +1,37 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+108662,Robert Sánchez,Robert Sánchez,Robert,Sánchez,Robert_Sánchez,Goalkeeper,G,1,27,"6' 6""",196 lbs,,1997-11-18T08:00Z,Spain,363,Chelsea
+286774,Gaga Slonina,Gaga Slonina,Gaga,Slonina,Gaga_Slonina,Goalkeeper,G,44,21,"6' 4""",192 lbs,,2004-05-15T07:00Z,USA,363,Chelsea
+304256,Filip Jørgensen,Filip Jørgensen,Filip,Jørgensen,Filip_Jørgensen,Goalkeeper,G,12,23,"6' 4""",185 lbs,,2002-04-16T07:00Z,Denmark,363,Chelsea
+349214,Ted Curd,Ted Curd,Ted,Curd,Ted_Curd,Goalkeeper,G,35,19,"6' 3""",,,2006-02-14T08:00Z,England,363,Chelsea
+351335,Max Merrick,Max Merrick,Max,Merrick,Max_Merrick,Goalkeeper,G,50,19,"5' 9""",152 lbs,,2005-11-10T08:00Z,England,363,Chelsea
+189007,Reece James,Reece James,Reece,James,Reece_James,Defender,D,24,25,"6' 0""",181 lbs,,1999-12-08T08:00Z,England,363,Chelsea
+227784,Trevoh Chalobah,Trevoh Chalobah,Trevoh,Chalobah,Trevoh_Chalobah,Defender,D,23,26,"6' 3""",163 lbs,,1999-07-05T07:00Z,England,363,Chelsea
+231198,Tosin Adarabioyo,Tosin Adarabioyo,Tosin,Adarabioyo,Tosin_Adarabioyo,Defender,D,4,28,"6' 5""",174 lbs,,1997-09-24T07:00Z,England,363,Chelsea
+259910,Marc Cucurella,Marc Cucurella,Marc,Cucurella,Marc_Cucurella,Defender,D,3,27,"5' 9""",146 lbs,,1998-07-22T07:00Z,Spain,363,Chelsea
+270190,Wesley Fofana,Wesley Fofana,Wesley,Fofana,Wesley_Fofana,Defender,D,29,24,"6' 3""",183 lbs,,2000-12-17T08:00Z,France,363,Chelsea
+282585,Benoît Badiashile,Benoît Badiashile,Benoît,Badiashile,Benoît_Badiashile,Defender,D,5,24,"6' 4""",163 lbs,,2001-03-26T08:00Z,France,363,Chelsea
+296410,Levi Colwill,Levi Colwill,Levi,Colwill,Levi_Colwill,Defender,D,6,22,"6' 2""",183 lbs,,2003-02-26T08:00Z,England,363,Chelsea
+308947,Malo Gusto,Malo Gusto,Malo,Gusto,Malo_Gusto,Defender,D,27,22,"5' 10""",148 lbs,,2003-05-19T07:00Z,France,363,Chelsea
+353951,Jorrel Hato,Jorrel Hato,Jorrel,Hato,Jorrel_Hato,Defender,D,21,19,"6' 0""",168 lbs,,2006-03-07T08:00Z,Netherlands,363,Chelsea
+368317,Josh Acheampong,Josh Acheampong,Josh,Acheampong,Josh_Acheampong,Defender,D,34,19,"6' 0""",163 lbs,,2006-05-05T07:00Z,England,363,Chelsea
+285450,Enzo Fernández,Enzo Fernández,Enzo,Fernández,Enzo_Fernández,Midfielder,M,8,24,"5' 10""",168 lbs,,2001-01-17T08:00Z,Argentina,363,Chelsea
+289877,Moisés Caicedo,Moisés Caicedo,Moisés,Caicedo,Moisés_Caicedo,Midfielder,M,25,24,"5' 10""",161 lbs,,2001-11-02T08:00Z,Ecuador,363,Chelsea
+296395,Cole Palmer,Cole Palmer,Cole,Palmer,Cole_Palmer,Midfielder,M,10,23,"6' 2""",168 lbs,,2002-05-06T07:00Z,England,363,Chelsea
+299911,Mykhailo Mudryk,Mykhailo Mudryk,Mykhailo,Mudryk,Mykhailo_Mudryk,Midfielder,M,,24,"5' 9""",132 lbs,,2001-01-05T08:00Z,Ukraine,363,Chelsea
+308217,Romeo Lavia,Romeo Lavia,Romeo,Lavia,Romeo_Lavia,Midfielder,M,45,21,"5' 11""",168 lbs,,2004-01-06T08:00Z,Belgium,363,Chelsea
+314858,Andrey Santos,Andrey Santos,Andrey,Santos,Andrey_Santos,Midfielder,M,17,21,"5' 11""",163 lbs,,2004-05-03T07:00Z,Brazil,363,Chelsea
+316560,Dário Essugo,Dário Essugo,Dário Cassia,Luis Essugo,Dário_Essugo,Midfielder,M,14,20,"5' 10""",172 lbs,,2005-03-14T08:00Z,Portugal,363,Chelsea
+318284,Facundo Buonanotte,Facundo Buonanotte,Facundo,Buonanotte,Facundo_Buonanotte,Midfielder,M,40,20,"5' 9""",146 lbs,,2004-12-23T08:00Z,Argentina,363,Chelsea
+374222,Ollie Harrison,Ollie Harrison,Ollie,Harrison,Ollie_Harrison,Midfielder,M,58,18,,,,2007-08-07T07:00Z,England,363,Chelsea
+379702,Landon Emenalo,Landon Emenalo,Landon,Emenalo,Landon_Emenalo,Midfielder,M,56,17,"5' 10""",,,2008-01-18T08:00Z,England,363,Chelsea
+400749,Reggie Walsh,Reggie Walsh,Reggie,Walsh,Reggie_Walsh,Midfielder,M,46,17,"5' 8""",,,2008-10-20T07:00Z,England,363,Chelsea
+256115,Pedro Neto,Pedro Neto,Pedro,Neto,Pedro_Neto,Forward,F,7,25,"5' 9""",137 lbs,,2000-03-09T08:00Z,Portugal,363,Chelsea
+284960,João Pedro,João Pedro,João Pedro,,João_Pedro,Forward,F,20,24,"6' 0""",152 lbs,,2001-09-26T07:00Z,Brazil,363,Chelsea
+307114,Liam Delap,Liam Delap,Liam,Delap,Liam_Delap,Forward,F,9,22,"6' 1""",159 lbs,,2003-02-08T08:00Z,England,363,Chelsea
+325555,Alejandro Garnacho,Alejandro Garnacho,Alejandro,Garnacho,Alejandro_Garnacho,Forward,F,49,21,"5' 11""",161 lbs,,2004-07-01T07:00Z,Argentina,363,Chelsea
+339879,Jamie Gittens,Jamie Gittens,Jamie,Gittens,Jamie_Gittens,Forward,F,11,21,"5' 9""",152 lbs,,2004-08-08T07:00Z,England,363,Chelsea
+363038,Marc Guiu,Marc Guiu,Marc,Guiu,Marc_Guiu,Forward,F,38,19,"6' 2""",181 lbs,,2006-01-04T08:00Z,Spain,363,Chelsea
+368864,Tyrique George,Tyrique George,Tyrique,George,Tyrique_George,Forward,F,32,19,"5' 11""",163 lbs,,2006-02-04T08:00Z,England,363,Chelsea
+372013,Shim Mheuka,Shim Mheuka,Shim,Mheuka,Shim_Mheuka,Forward,F,62,18,"6' 0""",163 lbs,,2007-10-20T07:00Z,England,363,Chelsea
+376481,Estêvão,Estêvão,Estêvão,,Estêvão,Forward,F,41,18,"5' 9""",137 lbs,,2007-04-24T07:00Z,Brazil,363,Chelsea
+399895,Ryan Kavuma-Mcqueen,Ryan Kavuma-Mcqueen,Ryan,Kavuma-Mcqueen,Ryan_Kavuma-Mcqueen,Forward,F,76,16,,,,2009-01-01T08:00Z,England,363,Chelsea

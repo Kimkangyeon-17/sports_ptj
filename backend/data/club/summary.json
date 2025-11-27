@@ -1,0 +1,108 @@
+{
+  "scraped_at": "2025-11-08T00:03:59.900769",
+  "league": "Premier League",
+  "total_teams": 20,
+  "total_players": 627,
+  "teams": {
+    "AFC Bournemouth": {
+      "team_id": "349",
+      "player_count": 28,
+      "csv_path": "club/AFC_Bournemouth\\squad_20251108.csv"
+    },
+    "Arsenal": {
+      "team_id": "359",
+      "player_count": 29,
+      "csv_path": "club/Arsenal\\squad_20251108.csv"
+    },
+    "Aston Villa": {
+      "team_id": "362",
+      "player_count": 31,
+      "csv_path": "club/Aston_Villa\\squad_20251108.csv"
+    },
+    "Brentford": {
+      "team_id": "337",
+      "player_count": 32,
+      "csv_path": "club/Brentford\\squad_20251108.csv"
+    },
+    "Brighton & Hove Albion": {
+      "team_id": "331",
+      "player_count": 32,
+      "csv_path": "club/Brighton__Hove_Albion\\squad_20251108.csv"
+    },
+    "Burnley": {
+      "team_id": "379",
+      "player_count": 38,
+      "csv_path": "club/Burnley\\squad_20251108.csv"
+    },
+    "Chelsea": {
+      "team_id": "363",
+      "player_count": 36,
+      "csv_path": "club/Chelsea\\squad_20251108.csv"
+    },
+    "Crystal Palace": {
+      "team_id": "384",
+      "player_count": 30,
+      "csv_path": "club/Crystal_Palace\\squad_20251108.csv"
+    },
+    "Everton": {
+      "team_id": "368",
+      "player_count": 25,
+      "csv_path": "club/Everton\\squad_20251108.csv"
+    },
+    "Fulham": {
+      "team_id": "370",
+      "player_count": 26,
+      "csv_path": "club/Fulham\\squad_20251108.csv"
+    },
+    "Leeds United": {
+      "team_id": "357",
+      "player_count": 27,
+      "csv_path": "club/Leeds_United\\squad_20251108.csv"
+    },
+    "Liverpool": {
+      "team_id": "364",
+      "player_count": 39,
+      "csv_path": "club/Liverpool\\squad_20251108.csv"
+    },
+    "Manchester City": {
+      "team_id": "382",
+      "player_count": 32,
+      "csv_path": "club/Manchester_City\\squad_20251108.csv"
+    },
+    "Manchester United": {
+      "team_id": "360",
+      "player_count": 26,
+      "csv_path": "club/Manchester_United\\squad_20251108.csv"
+    },
+    "Newcastle United": {
+      "team_id": "361",
+      "player_count": 30,
+      "csv_path": "club/Newcastle_United\\squad_20251108.csv"
+    },
+    "Nottingham Forest": {
+      "team_id": "393",
+      "player_count": 34,
+      "csv_path": "club/Nottingham_Forest\\squad_20251108.csv"
+    },
+    "Sunderland": {
+      "team_id": "366",
+      "player_count": 41,
+      "csv_path": "club/Sunderland\\squad_20251108.csv"
+    },
+    "Tottenham Hotspur": {
+      "team_id": "367",
+      "player_count": 38,
+      "csv_path": "club/Tottenham_Hotspur\\squad_20251108.csv"
+    },
+    "West Ham United": {
+      "team_id": "371",
+      "player_count": 27,
+      "csv_path": "club/West_Ham_United\\squad_20251108.csv"
+    },
+    "Wolverhampton Wanderers": {
+      "team_id": "380",
+      "player_count": 26,
+      "csv_path": "club/Wolverhampton_Wanderers\\squad_20251108.csv"
+    }
+  }
+}

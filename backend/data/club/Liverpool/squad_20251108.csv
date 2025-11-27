@@ -1,0 +1,40 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+194121,Freddie Woodman,Freddie Woodman,Freddie,Woodman,Freddie_Woodman,Goalkeeper,G,28,28,"6' 2""",183 lbs,,1997-03-04T08:00Z,England,364,Liverpool
+196876,Alisson Becker,Alisson Becker,Alisson,Becker,Alisson_Becker,Goalkeeper,G,1,33,"6' 4""",201 lbs,,1992-10-02T07:00Z,Brazil,364,Liverpool
+274742,Giorgi Mamardashvili,Giorgi Mamardashvili,Giorgi,Mamardashvili,Giorgi_Mamardashvili,Goalkeeper,G,25,25,"6' 6""",196 lbs,,2000-09-29T07:00Z,Georgia,364,Liverpool
+345673,Ármin Pécsi,Ármin Pécsi,Ármin,Pécsi,Ármin_Pécsi,Goalkeeper,G,41,20,"6' 3""",,,2005-02-24T08:00Z,Hungary,364,Liverpool
+389424,Kornel Misciur,Kornel Misciur,Kornel,Misciur,Kornel_Misciur,Goalkeeper,G,74,18,,,,2007-04-27T07:00Z,England,364,Liverpool
+102053,Joe Gomez,Joe Gomez,Joe,Gomez,Joe_Gomez,Defender,D,2,28,"6' 2""",174 lbs,,1997-05-23T07:00Z,England,364,Liverpool
+104943,Andrew Robertson,Andrew Robertson,Andrew,Robertson,Andrew_Robertson,Defender,D,26,31,"5' 10""",139 lbs,,1994-03-11T08:00Z,Scotland,364,Liverpool
+157892,Virgil van Dijk,Virgil van Dijk,Virgil,van Dijk,Virgil_van_Dijk,Defender,D,4,34,"6' 5""",203 lbs,,1991-07-08T07:00Z,Netherlands,364,Liverpool
+250183,Conor Bradley,Conor Bradley,Conor,Bradley,Conor_Bradley,Defender,D,12,22,"5' 11""",139 lbs,,2003-07-09T07:00Z,Northern Ireland,364,Liverpool
+251634,Ibrahima Konaté,Ibrahima Konaté,Ibrahima,Konaté,Ibrahima_Konaté,Defender,D,5,26,"6' 4""",207 lbs,,1999-05-25T07:00Z,France,364,Liverpool
+281119,Jeremie Frimpong,Jeremie Frimpong,Jeremie,Frimpong,Jeremie_Frimpong,Defender,D,30,24,"5' 7""",139 lbs,,2000-12-10T08:00Z,Netherlands,364,Liverpool
+291353,Calvin Ramsay,Calvin Ramsay,Calvin,Ramsay,Calvin_Ramsay,Defender,D,47,22,"5' 10""",150 lbs,,2003-07-31T07:00Z,Scotland,364,Liverpool
+323110,Milos Kerkez,Milos Kerkez,Milos,Kerkez,Milos_Kerkez,Defender,D,6,22,"5' 11""",157 lbs,,2003-11-07T08:00Z,Hungary,364,Liverpool
+340762,Rhys Williams,Rhys Williams,Rhys,Williams,Rhys_Williams,Defender,D,46,24,"6' 5""",181 lbs,,2001-02-03T08:00Z,England,364,Liverpool
+350664,Carter Pinnington,Carter Pinnington,Carter,Pinnington,Carter_Pinnington,Defender,D,57,18,,,,2007-02-21T08:00Z,England,364,Liverpool
+373758,Amara Nallo,Amara Nallo,Amara,Nallo,Amara_Nallo,Defender,D,65,18,"6' 1""",159 lbs,,2006-11-18T08:00Z,England,364,Liverpool
+379855,Wellity Lucky,Wellity Lucky,Wellity,Lucky,Wellity_Lucky,Defender,D,92,19,,,,2006-01-12T08:00Z,Spain,364,Liverpool
+380082,Giovanni Leoni,Giovanni Leoni,Giovanni,Leoni,Giovanni_Leoni,Defender,D,15,18,"6' 5""",168 lbs,,2006-12-21T08:00Z,Italy,364,Liverpool
+152479,Wataru Endo,Wataru Endo,Wataru,Endo,Wataru_Endo,Midfielder,M,3,32,"5' 10""",168 lbs,,1993-02-09T08:00Z,Japan,364,Liverpool
+190257,Curtis Jones,Curtis Jones,Curtis,Jones,Curtis_Jones,Midfielder,M,17,24,"6' 1""",172 lbs,,2001-01-30T08:00Z,England,364,Liverpool
+249299,Alexis Mac Allister,Alexis Mac Allister,Alexis,Mac Allister,Alexis_Mac_Allister,Midfielder,M,10,26,"5' 9""",150 lbs,,1998-12-24T08:00Z,Argentina,364,Liverpool
+257206,Dominik Szoboszlai,Dominik Szoboszlai,Dominik,Szoboszlai,Dominik_Szoboszlai,Midfielder,M,8,25,"6' 1""",161 lbs,,2000-10-25T07:00Z,Hungary,364,Liverpool
+274632,Ryan Gravenberch,Ryan Gravenberch,Ryan,Gravenberch,Ryan_Gravenberch,Midfielder,M,38,23,"6' 3""",183 lbs,,2002-05-16T07:00Z,Netherlands,364,Liverpool
+303748,Florian Wirtz,Florian Wirtz,Florian,Wirtz,Florian_Wirtz,Midfielder,M,7,22,"5' 9""",152 lbs,,2003-05-03T07:00Z,Germany,364,Liverpool
+330605,Stefan Bajcetic,Stefan Bajcetic,Stefan,Bajcetic,Stefan_Bajcetic,Midfielder,M,43,21,"6' 1""",170 lbs,,2004-10-22T07:00Z,Spain,364,Liverpool
+330608,Tommy Pilling,Tommy Pilling,Tommy,Pilling,Tommy_Pilling,Midfielder,M,70,21,,,,2004-09-14T07:00Z,England,364,Liverpool
+356075,Trey Nyoni,Trey Nyoni,Trey,Nyoni,Trey_Nyoni,Midfielder,M,42,18,"5' 11""",163 lbs,,2007-06-30T07:00Z,England,364,Liverpool
+357162,Kieran Morrison,Kieran Morrison,Kieran,Morrison,Kieran_Morrison,Midfielder,M,68,18,"5' 7""",141 lbs,,2006-11-09T08:00Z,Northern Ireland,364,Liverpool
+380624,Michael Laffey,Michael Laffey,Michael,Laffey,Michael_Laffey,Midfielder,M,94,20,,,,2005-10-11T07:00Z,England,364,Liverpool
+173896,Mohamed Salah,Mohamed Salah,Mohamed,Salah,Mohamed_Salah,Forward,F,11,33,"5' 9""",157 lbs,,1992-06-15T07:00Z,Egypt,364,Liverpool
+234306,Federico Chiesa,Federico Chiesa,Federico,Chiesa,Federico_Chiesa,Forward,F,14,28,"5' 9""",152 lbs,,1997-10-25T07:00Z,Italy,364,Liverpool
+235662,Alexander Isak,Alexander Isak,Alexander,Isak,Alexander_Isak,Forward,F,9,26,"6' 4""",170 lbs,,1999-09-21T07:00Z,Sweden,364,Liverpool
+249524,Cody Gakpo,Cody Gakpo,Cody,Gakpo,Cody_Gakpo,Forward,F,18,26,"6' 4""",168 lbs,,1999-05-07T07:00Z,Netherlands,364,Liverpool
+304901,Hugo Ekitike,Hugo Ekitike,Hugo,Ekitike,Hugo_Ekitike,Forward,F,22,23,"6' 3""",168 lbs,,2002-06-20T07:00Z,France,364,Liverpool
+312241,Kaide Gordon,Kaide Gordon,Kaide,Gordon,Kaide_Gordon,Forward,F,49,21,"5' 8""",152 lbs,,2004-10-05T07:00Z,England,364,Liverpool
+342686,Trent Kone-Doherty,Trent Kone-Doherty,Trent,Kone-Doherty,Trent_Kone-Doherty,Forward,F,51,19,"5' 9""",141 lbs,Derry,2006-06-30T07:00Z,Republic of Ireland,364,Liverpool
+354737,Jayden Danns,Jayden Danns,Jayden,Danns,Jayden_Danns,Forward,F,76,19,"6' 0""",148 lbs,,2006-01-16T08:00Z,England,364,Liverpool
+371434,Keyrol Figueroa,Keyrol Figueroa,Keyrol,Figueroa,Keyrol_Figueroa,Forward,F,64,19,"5' 5""",139 lbs,,2006-08-31T07:00Z,USA,364,Liverpool
+379588,Rio Ngumoha,Rio Ngumoha,Rio,Ngumoha,Rio_Ngumoha,Forward,F,73,17,"5' 7""",163 lbs,,2008-08-29T07:00Z,England,364,Liverpool

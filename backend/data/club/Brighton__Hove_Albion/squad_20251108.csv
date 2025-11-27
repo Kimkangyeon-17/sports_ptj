@@ -1,0 +1,33 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+111114,Jason Steele,Jason Steele,Jason,Steele,Jason_Steele,Goalkeeper,G,23,35,"6' 2""",172 lbs,,1990-08-18T07:00Z,England,331,Brighton & Hove Albion
+248761,Tom McGill,Tom McGill,Tom,McGill,Tom_McGill,Goalkeeper,G,38,25,"6' 1""",174 lbs,,2000-03-25T08:00Z,Canada,331,Brighton & Hove Albion
+291609,Bart Verbruggen,Bart Verbruggen,Bart,Verbruggen,Bart_Verbruggen,Goalkeeper,G,1,23,"6' 4""",146 lbs,,2002-08-18T07:00Z,Netherlands,331,Brighton & Hove Albion
+376499,Nils Ramming,Nils Ramming,Nils,Ramming,Nils_Ramming,Goalkeeper,G,62,18,"6' 3""",174 lbs,,2007-03-28T07:00Z,Sweden,331,Brighton & Hove Albion
+17828,Adam Webster,Adam Webster,Adam,Webster,Adam_Webster,Defender,D,4,30,"6' 3""",163 lbs,,1995-01-04T08:00Z,England,331,Brighton & Hove Albion
+147106,Lewis Dunk,Lewis Dunk,Lewis,Dunk,Lewis_Dunk,Defender,D,5,33,"6' 4""",192 lbs,,1991-11-21T08:00Z,England,331,Brighton & Hove Albion
+170597,Joël Veltman,Joël Veltman,Joël,Veltman,Joël_Veltman,Defender,D,34,33,"6' 0""",163 lbs,,1992-01-15T08:00Z,Netherlands,331,Brighton & Hove Albion
+216017,Olivier Boscagli,Olivier Boscagli,Olivier,Boscagli,Olivier_Boscagli,Defender,D,21,27,"5' 11""",150 lbs,,1997-11-18T08:00Z,France,331,Brighton & Hove Albion
+238318,Ferdi Kadioglu,Ferdi Kadioglu,Ferdi,Kadioglu,Ferdi_Kadioglu,Defender,D,24,26,"5' 9""",150 lbs,,1999-10-07T07:00Z,Turkey,331,Brighton & Hove Albion
+282583,Jan Paul van Hecke,Jan Paul van Hecke,Jan Paul,van Hecke,Jan_Paul_van_Hecke,Defender,D,6,25,"6' 2""",172 lbs,,2000-06-08T07:00Z,Netherlands,331,Brighton & Hove Albion
+301327,Maxim De Cuyper,Maxim De Cuyper,Maxim,De Cuyper,Maxim_De_Cuyper,Defender,D,29,24,"6' 0""",159 lbs,,2000-12-22T08:00Z,Belgium,331,Brighton & Hove Albion
+332549,Diego Coppola,Diego Coppola,Diego,Coppola,Diego_Coppola,Defender,D,42,21,"6' 4""",172 lbs,,2003-12-28T08:00Z,Italy,331,Brighton & Hove Albion
+371698,Charlie Tasker,Charlie Tasker,Charlie,Tasker,Charlie_Tasker,Defender,D,51,19,"6' 1""",,,2006-02-24T08:00Z,England,331,Brighton & Hove Albion
+372020,Freddie Simmonds,Freddie Simmonds,Freddie,Simmonds,Freddie_Simmonds,Defender,D,71,17,"6' 2""",,,2008-03-09T08:00Z,England,331,Brighton & Hove Albion
+26843,James Milner,James Milner,James,Milner,James_Milner,Midfielder,M,20,39,"5' 9""",152 lbs,,1986-01-04T08:00Z,England,331,Brighton & Hove Albion
+192278,Diego Gómez,Diego Gómez,Diego,Gómez,Diego_Gómez,Midfielder,M,25,22,"6' 0""",170 lbs,,2003-03-27T08:00Z,Paraguay,331,Brighton & Hove Albion
+223445,Solly March,Solly March,Solly,March,Solly_March,Midfielder,M,7,31,"5' 11""",192 lbs,,1994-07-20T07:00Z,England,331,Brighton & Hove Albion
+274278,Kaoru Mitoma,Kaoru Mitoma,Kaoru,Mitoma,Kaoru_Mitoma,Midfielder,M,22,28,"5' 10""",161 lbs,,1997-05-20T07:00Z,Japan,331,Brighton & Hove Albion
+282186,Mats Wieffer,Mats Wieffer,Mats,Wieffer,Mats_Wieffer,Midfielder,M,27,25,"6' 2""",172 lbs,,1999-11-16T08:00Z,Netherlands,331,Brighton & Hove Albion
+304242,Yasin Ayari,Yasin Ayari,Yasin,Ayari,Yasin_Ayari,Midfielder,M,26,22,"5' 8""",150 lbs,,2003-10-06T07:00Z,Sweden,331,Brighton & Hove Albion
+328011,Jack Hinshelwood,Jack Hinshelwood,Jack,Hinshelwood,Jack_Hinshelwood,Midfielder,M,13,20,"5' 11""",168 lbs,,2005-04-11T07:00Z,England,331,Brighton & Hove Albion
+338814,Carlos Baleba,Carlos Baleba,Carlos,Baleba,Carlos_Baleba,Midfielder,M,17,21,"5' 10""",161 lbs,,2004-01-03T08:00Z,Cameroon,331,Brighton & Hove Albion
+357683,Brajan Gruda,Brajan Gruda,Brajan,Gruda,Brajan_Gruda,Midfielder,M,8,21,"5' 10""",152 lbs,,2004-05-31T07:00Z,Germany,331,Brighton & Hove Albion
+374056,Joe Knight,Joe Knight,Joe,Knight,Joe_Knight,Midfielder,M,49,20,"5' 5""",,,2005-09-21T07:00Z,England,331,Brighton & Hove Albion
+378530,Harry Howell,Harry Howell,Harry,Howell,Harry_Howell,Midfielder,M,53,17,"5' 11""",,,2008-04-20T07:00Z,England,331,Brighton & Hove Albion
+115271,Danny Welbeck,Danny Welbeck,Danny,Welbeck,Danny_Welbeck,Forward,F,18,34,"6' 1""",161 lbs,,1990-11-26T08:00Z,England,331,Brighton & Hove Albion
+278061,Georginio Rutter,Georginio Rutter,Georginio,Rutter,Georginio_Rutter,Forward,F,10,23,"6' 0""",183 lbs,,2002-04-20T07:00Z,France,331,Brighton & Hove Albion
+348787,Yankuba Minteh,Yankuba Minteh,Yankuba,Minteh,Yankuba_Minteh,Forward,F,11,21,"5' 11""",141 lbs,,2004-07-22T07:00Z,Gambia,331,Brighton & Hove Albion
+357165,Stefanos Tzimas,Stefanos Tzimas,Stefanos,Tzimas,Stefanos_Tzimas,Forward,F,9,19,"6' 1""",170 lbs,,2006-01-06T08:00Z,Greece,331,Brighton & Hove Albion
+387655,Charalambos Kostoulas,Charalambos Kostoulas,Charalampos,Kostoulas,Charalambos_Kostoulas,Forward,F,19,18,"6' 1""",,,2007-05-30T07:00Z,Greece,331,Brighton & Hove Albion
+399697,Nehemiah Oriola,Nehemiah Oriola,Nehemiah,Oriola,Nehemiah_Oriola,Forward,F,58,18,,,,2007-06-11T07:00Z,England,331,Brighton & Hove Albion
+403702,Tom Watson,Tom Watson,Tom,Watson,Tom_Watson,Forward,F,14,19,"5' 6""",139 lbs,,2006-04-08T07:00Z,England,331,Brighton & Hove Albion

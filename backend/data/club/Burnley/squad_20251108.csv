@@ -1,0 +1,39 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+126703,Martin Dúbravka,Martin Dúbravka,Martin,Dúbravka,Martin_Dúbravka,Goalkeeper,G,1,36,"6' 3""",183 lbs,,1989-01-15T08:00Z,Slovakia,379,Burnley
+223246,Václav Hladky,Václav Hladky,Václav,Hladky,Václav_Hladky,Goalkeeper,G,32,34,"6' 4""",174 lbs,,1990-11-14T08:00Z,Czechia,379,Burnley
+329987,Max Weiß,Max Weiß,Max,Weiß,Max_Weiß,Goalkeeper,G,13,21,"6' 3""",183 lbs,,2004-06-15T07:00Z,Germany,379,Burnley
+129358,Kyle Walker,Kyle Walker,Kyle,Walker,Kyle_Walker,Defender,D,2,35,"6' 0""",174 lbs,,1990-05-28T07:00Z,England,379,Burnley
+177110,Connor Roberts,Connor Roberts,Connor,Roberts,Connor_Roberts,Defender,D,14,30,"5' 9""",159 lbs,,1995-09-23T07:00Z,Wales,379,Burnley
+229524,Axel Tuanzebe,Axel Tuanzebe,Axel,Tuanzebe,Axel_Tuanzebe,Defender,D,6,27,"6' 1""",163 lbs,,1997-11-14T08:00Z,Congo DR,379,Burnley
+232291,Joe Worrall,Joe Worrall,Joe,Worrall,Joe_Worrall,Defender,D,4,28,"6' 4""",139 lbs,,1997-01-10T08:00Z,England,379,Burnley
+252521,Hannes Delcroix,Hannes Delcroix,Hannes,Delcroix,Hannes_Delcroix,Defender,D,44,26,"6' 1""",172 lbs,,1999-02-28T08:00Z,Haiti,379,Burnley
+271218,Jordan Beyer,Jordan Beyer,Jordan,Beyer,Jordan_Beyer,Defender,D,36,25,"6' 2""",174 lbs,,2000-05-19T07:00Z,Germany,379,Burnley
+285790,Lucas Pires,Lucas Pires,Lucas,Pires,Lucas_Pires,Defender,D,23,24,"5' 9""",157 lbs,,2001-03-24T08:00Z,Brazil,379,Burnley
+290413,Hjalmar Ekdal,Hjalmar Ekdal,Hjalmar,Ekdal,Hjalmar_Ekdal,Defender,D,18,27,"6' 2""",170 lbs,,1998-10-21T07:00Z,Sweden,379,Burnley
+318316,Maxime Estève,Maxime Estève,Maxime,Estève,Maxime_Estève,Defender,D,5,23,"6' 4""",192 lbs,,2002-05-26T07:00Z,France,379,Burnley
+322642,Oliver Sonne,Oliver Sonne,Oliver,Sonne,Oliver_Sonne,Defender,D,22,24,"6' 0""",159 lbs,,2000-11-10T08:00Z,Peru,379,Burnley
+325541,Bashir Humphreys,Bashir Humphreys,Bashir,Humphreys,Bashir_Humphreys,Defender,D,12,22,"6' 2""",172 lbs,,2003-03-15T08:00Z,England,379,Burnley
+346210,Quilindschy Hartman,Quilindschy Hartman,Quilindschy,Hartman,Quilindschy_Hartman,Defender,D,3,23,"6' 0""",170 lbs,,2001-11-14T08:00Z,Netherlands,379,Burnley
+347290,Murray Campbell,Murray Campbell,Murray,Campbell,Murray_Campbell,Defender,D,43,19,,,,2006-07-25T07:00Z,Scotland,379,Burnley
+190936,Josh Laurent,Josh Laurent,Josh,Laurent,Josh_Laurent,Midfielder,M,29,30,"6' 2""",152 lbs,,1995-05-06T07:00Z,England,379,Burnley
+207146,Josh Cullen,Josh Cullen,Josh,Cullen,Josh_Cullen,Midfielder,M,24,29,"5' 9""",152 lbs,,1996-04-07T08:00Z,Republic of Ireland,379,Burnley
+256607,Florentino,Florentino,Florentino,,Florentino,Midfielder,M,16,26,"6' 0""",161 lbs,,1999-08-19T07:00Z,Portugal,379,Burnley
+261598,Zian Flemming,Zian Flemming,Zian,Flemming,Zian_Flemming,Midfielder,M,19,27,"6' 1""",183 lbs,,1998-08-01T07:00Z,Netherlands,379,Burnley
+300007,Hannibal Mejbri,Hannibal Mejbri,Hannibal,Mejbri,Hannibal_Mejbri,Midfielder,M,28,22,"5' 10""",161 lbs,,2003-01-21T08:00Z,Tunisia,379,Burnley
+309563,Lesley Ugochukwu,Lesley Ugochukwu,Lesley,Ugochukwu,Lesley_Ugochukwu,Midfielder,M,8,21,"6' 3""",159 lbs,,2004-03-26T08:00Z,France,379,Burnley
+366750,Ellis Clark,Ellis Clark,Ellis,Clark,Ellis_Clark,Midfielder,M,47,18,,,,2007-06-26T07:00Z,Scotland,379,Burnley
+376510,Marley Leuluai,Marley Leuluai,Marley,Leuluai,Marley_Leuluai,Midfielder,M,53,18,"5' 11""",,,2006-11-08T08:00Z,New Zealand,379,Burnley
+409739,Oliver Pimlott,Oliver Pimlott,Oliver,Pimlott,Oliver_Pimlott,Midfielder,M,54,18,,,,2007-04-07T07:00Z,England,379,Burnley
+411241,George Brierley,George Brierley,George,Brierley,George_Brierley,Midfielder,M,41,17,,,,2007-11-20T08:00Z,England,379,Burnley
+105405,Ashley Barnes,Ashley Barnes,Ashley,Barnes,Ashley_Barnes,Forward,F,35,36,"6' 1""",170 lbs,,1989-10-30T08:00Z,England,379,Burnley
+225552,Marcus Edwards,Marcus Edwards,Marcus,Edwards,Marcus_Edwards,Forward,F,10,26,"5' 6""",141 lbs,,1998-12-03T08:00Z,England,379,Burnley
+233073,Jacob Bruun Larsen,Jacob Bruun Larsen,Jacob,Bruun Larsen,Jacob_Bruun_Larsen,Forward,F,7,27,"6' 0""",170 lbs,,1998-09-19T07:00Z,Denmark,379,Burnley
+264751,Lyle Foster,Lyle Foster,Lyle,Foster,Lyle_Foster,Forward,F,9,25,"6' 1""",152 lbs,,2000-09-03T07:00Z,South Africa,379,Burnley
+280895,Mike Trésor,Mike Trésor,Mike,Trésor,Mike_Trésor,Forward,F,31,26,"5' 8""",139 lbs,,1999-05-28T07:00Z,Belgium,379,Burnley
+291535,Armando Broja,Armando Broja,Armando,Broja,Armando_Broja,Forward,F,27,24,"6' 3""",183 lbs,,2001-09-10T07:00Z,Albania,379,Burnley
+299600,Enock Agyei,Enock Agyei,Enock,Agyei,Enock_Agyei,Forward,F,48,20,"5' 8""",,,2005-01-13T08:00Z,Belgium,379,Burnley
+307657,Jaidon Anthony,Jaidon Anthony,Jaidon,Anthony,Jaidon_Anthony,Forward,F,11,25,"6' 0""",,,1999-12-01T08:00Z,England,379,Burnley
+320757,Zeki Amdouni,Zeki Amdouni,Zeki,Amdouni,Zeki_Amdouni,Forward,F,25,24,"6' 1""",172 lbs,,2000-12-04T08:00Z,Switzerland,379,Burnley
+324541,Loum Tchaouna,Loum Tchaouna,Loum,Tchaouna,Loum_Tchaouna,Forward,F,17,22,"5' 11""",150 lbs,,2003-09-08T07:00Z,France,379,Burnley
+333619,Jaydon Banel,Jaydon Banel,Jaydon,Banel,Jaydon_Banel,Forward,F,34,21,"5' 8""",152 lbs,,2004-10-19T07:00Z,Netherlands,379,Burnley
+411240,Brandon Pouani,Brandon Pouani,Brandon,Pouani,Brandon_Pouani,Forward,F,45,17,,,,2007-12-10T08:00Z,England,379,Burnley

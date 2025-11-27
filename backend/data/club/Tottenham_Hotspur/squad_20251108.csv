@@ -1,0 +1,39 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+204082,Guglielmo Vicario,Guglielmo Vicario,Guglielmo,Vicario,Guglielmo_Vicario,Goalkeeper,G,1,29,"6' 4""",183 lbs,,1996-10-07T07:00Z,Italy,367,Tottenham Hotspur
+259942,Brandon Austin,Brandon Austin,Brandon,Austin,Brandon_Austin,Goalkeeper,G,40,26,"6' 2""",181 lbs,,1999-01-08T08:00Z,England,367,Tottenham Hotspur
+324393,Antonin Kinsky,Antonin Kinsky,Antonin,Kinsky,Antonin_Kinsky,Goalkeeper,G,31,22,"6' 3""",183 lbs,,2003-03-13T08:00Z,Czechia,367,Tottenham Hotspur
+359158,Luca Gunter,Luca Gunter,Luca,Gunter,Luca_Gunter,Goalkeeper,G,46,20,,,,2005-03-23T08:00Z,England,367,Tottenham Hotspur
+6327,Ben Davies,Ben Davies,Ben,Davies,Ben_Davies,Defender,D,33,32,"5' 11""",170 lbs,,1993-04-24T07:00Z,Wales,367,Tottenham Hotspur
+96970,Cristian Romero,Cristian Romero,Cristian,Romero,Cristian_Romero,Defender,D,17,27,"6' 1""",172 lbs,,1998-04-27T07:00Z,Argentina,367,Tottenham Hotspur
+250543,Kevin Danso,Kevin Danso,Kevin,Danso,Kevin_Danso,Defender,D,4,27,"6' 3""",185 lbs,,1998-09-19T07:00Z,Austria,367,Tottenham Hotspur
+267711,Djed Spence,Djed Spence,Djed,Spence,Djed_Spence,Defender,D,24,25,"6' 1""",157 lbs,,2000-08-09T07:00Z,England,367,Tottenham Hotspur
+268533,Pedro Porro,Pedro Porro,Pedro,Porro,Pedro_Porro,Defender,D,23,26,"5' 8""",150 lbs,,1999-09-13T07:00Z,Spain,367,Tottenham Hotspur
+290076,Destiny Udogie,Destiny Udogie,Destiny,Udogie,Destiny_Udogie,Defender,D,13,22,"6' 1""",161 lbs,,2002-11-28T08:00Z,Italy,367,Tottenham Hotspur
+296512,Micky van de Ven,Micky van de Ven,Micky,van de Ven,Micky_van_de_Ven,Defender,D,37,24,"6' 4""",179 lbs,,2001-04-19T07:00Z,Netherlands,367,Tottenham Hotspur
+310216,Radu Dragusin,Radu Dragusin,Radu,Dragusin,Radu_Dragusin,Defender,D,3,23,"6' 3""",185 lbs,,2002-02-03T08:00Z,Romania,367,Tottenham Hotspur
+328492,Kota Takai,Kota Takai,Kota,Takai,Kota_Takai,Defender,D,25,21,"6' 4""",183 lbs,,2004-09-04T07:00Z,Japan,367,Tottenham Hotspur
+387932,James Rowswell,James Rowswell,James,Rowswell,James_Rowswell,Defender,D,76,19,"6' 2""",,,2006-07-13T07:00Z,England,367,Tottenham Hotspur
+396748,Malachi Hardy,Malachi Hardy,Malachi,Hardy,Malachi_Hardy,Defender,D,66,17,"6' 4""",172 lbs,,2008-03-10T07:00Z,England,367,Tottenham Hotspur
+403835,Jun'Ai Byfield,Jun'Ai Byfield,Jun'Ai,Byfield,Jun'Ai_Byfield,Defender,D,67,16,"6' 2""",,,2008-12-06T08:00Z,England,367,Tottenham Hotspur
+194450,James Maddison,James Maddison,James,Maddison,James_Maddison,Midfielder,M,10,28,"5' 9""",161 lbs,,1996-11-23T08:00Z,England,367,Tottenham Hotspur
+215772,Rodrigo Bentancur,Rodrigo Bentancur,Rodrigo,Bentancur,Rodrigo_Bentancur,Midfielder,M,30,28,"6' 2""",159 lbs,,1997-06-25T07:00Z,Uruguay,367,Tottenham Hotspur
+224144,João Palhinha,João Palhinha,João,Palhinha,João_Palhinha,Midfielder,M,6,30,"6' 3""",183 lbs,,1995-07-09T07:00Z,Portugal,367,Tottenham Hotspur
+232810,Yves Bissouma,Yves Bissouma,Yves,Bissouma,Yves_Bissouma,Midfielder,M,8,29,"6' 0""",174 lbs,,1996-08-30T07:00Z,Mali,367,Tottenham Hotspur
+266599,Mohammed Kudus,Mohammed Kudus,Mohammed,Kudus,Mohammed_Kudus,Midfielder,M,20,25,"5' 10""",152 lbs,,2000-08-02T07:00Z,Ghana,367,Tottenham Hotspur
+272695,Dejan Kulusevski,Dejan Kulusevski,Dejan,Kulusevski,Dejan_Kulusevski,Midfielder,M,21,25,"6' 1""",174 lbs,,2000-04-25T07:00Z,Sweden,367,Tottenham Hotspur
+297337,Pape Matar Sarr,Pape Matar Sarr,Pape Matar,Sarr,Pape_Matar_Sarr,Midfielder,M,29,23,"6' 1""",152 lbs,,2002-09-14T07:00Z,Senegal,367,Tottenham Hotspur
+328050,Archie Gray,Archie Gray,Archie,Gray,Archie_Gray,Midfielder,M,14,19,"6' 2""",152 lbs,,2006-03-12T08:00Z,England,367,Tottenham Hotspur
+332962,Xavi Simons,Xavi Simons,Xavi,Simons,Xavi_Simons,Midfielder,M,7,22,"5' 10""",128 lbs,,2003-04-21T07:00Z,Netherlands,367,Tottenham Hotspur
+356379,Lucas Bergvall,Lucas Bergvall,Lucas,Bergvall,Lucas_Bergvall,Midfielder,M,15,19,"6' 2""",161 lbs,,2006-02-02T08:00Z,Sweden,367,Tottenham Hotspur
+367520,Rio Kyerematen,Rio Kyerematen,Rio,Kyerematen,Rio_Kyerematen,Midfielder,M,57,20,"5' 9""",150 lbs,,2005-06-09T07:00Z,England,367,Tottenham Hotspur
+372016,Callum Olusesi,Callum Olusesi,Callum,Olusesi,Callum_Olusesi,Midfielder,M,52,18,"5' 9""",141 lbs,,2007-03-11T08:00Z,England,367,Tottenham Hotspur
+395939,Luca Williams-Barnett,Luca Williams-Barnett,Luca,Williams-Barnett,Luca_Williams-Barnett,Midfielder,M,68,17,"5' 10""",,,2008-10-01T07:00Z,England,367,Tottenham Hotspur
+156799,Richarlison,Richarlison,Richarlison,,Richarlison,Forward,F,9,28,"6' 0""",183 lbs,,1997-05-10T07:00Z,Brazil,367,Tottenham Hotspur
+194115,Dominic Solanke,Dominic Solanke,Dominic,Solanke,Dominic_Solanke,Forward,F,19,28,"6' 2""",174 lbs,,1997-09-14T07:00Z,England,367,Tottenham Hotspur
+252971,Randal Kolo Muani,Randal Kolo Muani,Randal,Kolo Muani,Randal_Kolo_Muani,Forward,F,39,26,"6' 2""",161 lbs,,1998-12-05T08:00Z,France,367,Tottenham Hotspur
+291307,Brennan Johnson,Brennan Johnson,Brennan,Johnson,Brennan_Johnson,Forward,F,22,24,"6' 1""",161 lbs,,2001-05-23T07:00Z,Wales,367,Tottenham Hotspur
+306012,Dane Scarlett,Dane Scarlett,Dane,Scarlett,Dane_Scarlett,Forward,F,44,21,"5' 11""",168 lbs,,2004-03-24T08:00Z,England,367,Tottenham Hotspur
+325042,Mathys Tel,Mathys Tel,Mathys,Tel,Mathys_Tel,Forward,F,11,20,"6' 0""",170 lbs,,2005-04-27T07:00Z,France,367,Tottenham Hotspur
+345687,Wilson Odobert,Wilson Odobert,Wilson,Odobert,Wilson_Odobert,Forward,F,28,20,"6' 0""",168 lbs,,2004-11-28T08:00Z,France,367,Tottenham Hotspur
+350633,Yusuf Akhamrich,Yusuf Akhamrich,Yusuf,Akhamrich,Yusuf_Akhamrich,Forward,F,70,20,"6' 0""",,,2005-09-05T07:00Z,Morocco,367,Tottenham Hotspur
+397881,Tynan Thompson,Tynan Thompson,Tynan,Thompson,Tynan_Thompson,Forward,F,54,17,,,,2008-04-17T07:00Z,England,367,Tottenham Hotspur

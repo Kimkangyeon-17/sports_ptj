@@ -1,0 +1,108 @@
+{
+  "generated_at": "2025-11-08T00:22:51.363430",
+  "total_teams": 20,
+  "total_players": 627,
+  "total_wiki_found": 586,
+  "teams": {
+    "AFC_Bournemouth": {
+      "players": 28,
+      "wiki_found": 25,
+      "json_file": "AFC_Bournemouth_profiles.json"
+    },
+    "Arsenal": {
+      "players": 29,
+      "wiki_found": 27,
+      "json_file": "Arsenal_profiles.json"
+    },
+    "Aston_Villa": {
+      "players": 31,
+      "wiki_found": 31,
+      "json_file": "Aston_Villa_profiles.json"
+    },
+    "Brentford": {
+      "players": 32,
+      "wiki_found": 31,
+      "json_file": "Brentford_profiles.json"
+    },
+    "Brighton__Hove_Albion": {
+      "players": 32,
+      "wiki_found": 30,
+      "json_file": "Brighton__Hove_Albion_profiles.json"
+    },
+    "Burnley": {
+      "players": 38,
+      "wiki_found": 33,
+      "json_file": "Burnley_profiles.json"
+    },
+    "Chelsea": {
+      "players": 36,
+      "wiki_found": 33,
+      "json_file": "Chelsea_profiles.json"
+    },
+    "Crystal_Palace": {
+      "players": 30,
+      "wiki_found": 29,
+      "json_file": "Crystal_Palace_profiles.json"
+    },
+    "Everton": {
+      "players": 25,
+      "wiki_found": 24,
+      "json_file": "Everton_profiles.json"
+    },
+    "Fulham": {
+      "players": 26,
+      "wiki_found": 24,
+      "json_file": "Fulham_profiles.json"
+    },
+    "Leeds_United": {
+      "players": 27,
+      "wiki_found": 27,
+      "json_file": "Leeds_United_profiles.json"
+    },
+    "Liverpool": {
+      "players": 39,
+      "wiki_found": 38,
+      "json_file": "Liverpool_profiles.json"
+    },
+    "Manchester_City": {
+      "players": 32,
+      "wiki_found": 31,
+      "json_file": "Manchester_City_profiles.json"
+    },
+    "Manchester_United": {
+      "players": 26,
+      "wiki_found": 26,
+      "json_file": "Manchester_United_profiles.json"
+    },
+    "Newcastle_United": {
+      "players": 30,
+      "wiki_found": 29,
+      "json_file": "Newcastle_United_profiles.json"
+    },
+    "Nottingham_Forest": {
+      "players": 34,
+      "wiki_found": 29,
+      "json_file": "Nottingham_Forest_profiles.json"
+    },
+    "Sunderland": {
+      "players": 41,
+      "wiki_found": 37,
+      "json_file": "Sunderland_profiles.json"
+    },
+    "Tottenham_Hotspur": {
+      "players": 38,
+      "wiki_found": 32,
+      "json_file": "Tottenham_Hotspur_profiles.json"
+    },
+    "West_Ham_United": {
+      "players": 27,
+      "wiki_found": 25,
+      "json_file": "West_Ham_United_profiles.json"
+    },
+    "Wolverhampton_Wanderers": {
+      "players": 26,
+      "wiki_found": 25,
+      "json_file": "Wolverhampton_Wanderers_profiles.json"
+    }
+  }
+}

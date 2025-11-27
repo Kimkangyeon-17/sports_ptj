@@ -1,0 +1,33 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+249527,Ellery Balcombe,Ellery Balcombe,Ellery,Balcombe,Ellery_Balcombe,Goalkeeper,G,31,26,"6' 3""",203 lbs,,1999-10-15T07:00Z,England,337,Brentford
+275599,Caoimhín Kelleher,Caoimhín Kelleher,Caoimhín,Kelleher,Caoimhín_Kelleher,Goalkeeper,G,1,26,"6' 2""",161 lbs,Cork,1998-11-23T08:00Z,Republic of Ireland,337,Brentford
+307281,Matthew Cox,Matthew Cox,Matthew,Cox,Matthew_Cox,Goalkeeper,G,13,22,"6' 0""",139 lbs,,2003-05-02T07:00Z,England,337,Brentford
+311527,Hákon Rafn Valdimarsson,Hákon Rafn Valdimarsson,Hákon Rafn,Valdimarsson,Hákon_Rafn_Valdimarsson,Goalkeeper,G,12,24,"6' 2""",194 lbs,,2001-10-13T07:00Z,Iceland,337,Brentford
+368826,Julian Eyestone,Julian Eyestone,Julian,Eyestone,Julian_Eyestone,Goalkeeper,G,41,19,"6' 6""",214 lbs,,2006-04-21T07:00Z,USA,337,Brentford
+206173,Kristoffer Ajer,Kristoffer Ajer,Kristoffer,Ajer,Kristoffer_Ajer,Defender,D,20,27,"6' 6""",203 lbs,,1998-04-17T07:00Z,Norway,337,Brentford
+206761,Rico Henry,Rico Henry,Rico,Henry,Rico_Henry,Defender,D,3,28,"5' 7""",148 lbs,,1997-07-08T07:00Z,England,337,Brentford
+241093,Ethan Pinnock,Ethan Pinnock,Ethan,Pinnock,Ethan_Pinnock,Defender,D,5,32,"6' 4""",172 lbs,,1993-05-29T07:00Z,Jamaica,337,Brentford
+270507,Sepp van den Berg,Sepp van den Berg,Sepp,van den Berg,Sepp_van_den_Berg,Defender,D,4,23,"6' 2""",161 lbs,,2001-12-20T08:00Z,Netherlands,337,Brentford
+279780,Nathan Collins,Nathan Collins,Nathan,Collins,Nathan_Collins,Defender,D,22,24,"6' 4""",183 lbs,,2001-04-30T07:00Z,Republic of Ireland,337,Brentford
+283940,Aaron Hickey,Aaron Hickey,Aaron,Hickey,Aaron_Hickey,Defender,D,2,23,"5' 10""",159 lbs,,2002-06-10T07:00Z,Scotland,337,Brentford
+356640,Michael Kayode,Michael Kayode,Michael,Kayode,Michael_Kayode,Defender,D,33,21,"5' 10""",161 lbs,,2004-07-10T07:00Z,Italy,337,Brentford
+367447,Benjamin Arthur,Benjamin Arthur,Benjamin,Arthur,Benjamin_Arthur,Defender,D,43,20,"6' 2""",174 lbs,,2005-10-09T07:00Z,England,337,Brentford
+127262,Jordan Henderson,Jordan Henderson,Jordan,Henderson,Jordan_Henderson,Midfielder,M,6,35,"6' 0""",172 lbs,,1990-06-17T07:00Z,England,337,Brentford
+225564,Vitaly Janelt,Vitaly Janelt,Vitaly,Janelt,Vitaly_Janelt,Midfielder,M,27,27,"6' 0""",172 lbs,,1998-05-10T07:00Z,Germany,337,Brentford
+227472,Mathias Jensen,Mathias Jensen,Mathias,Jensen,Mathias_Jensen,Midfielder,M,8,29,"5' 11""",159 lbs,,1996-01-01T08:00Z,Denmark,337,Brentford
+231049,Fábio Carvalho,Fábio Carvalho,Fábio,Carvalho,Fábio_Carvalho,Midfielder,M,14,23,"5' 7""",137 lbs,,2002-08-30T07:00Z,Portugal,337,Brentford
+246309,Josh Dasilva,Josh Dasilva,Josh,Dasilva,Josh_Dasilva,Midfielder,M,,27,"6' 0""",163 lbs,,1998-10-23T07:00Z,England,337,Brentford
+258491,Frank Onyeka,Frank Onyeka,Frank,Onyeka,Frank_Onyeka,Midfielder,M,15,27,"6' 0""",152 lbs,,1998-01-01T08:00Z,Nigeria,337,Brentford
+267458,Paris Maghoma,Paris Maghoma,Paris,Maghoma,Paris_Maghoma,Midfielder,M,32,24,"5' 11""",150 lbs,,2001-05-08T07:00Z,England,337,Brentford
+306541,Myles Peart-Harris,Myles Peart-Harris,Myles,Peart-Harris,Myles_Peart-Harris,Midfielder,M,25,23,"6' 2""",174 lbs,,2002-09-18T07:00Z,England,337,Brentford
+308932,Mikkel Damsgaard,Mikkel Damsgaard,Mikkel,Damsgaard,Mikkel_Damsgaard,Midfielder,M,24,25,"5' 11""",146 lbs,,2000-07-03T07:00Z,Denmark,337,Brentford
+310958,Kevin Schade,Kevin Schade,Kevin,Schade,Kevin_Schade,Midfielder,M,7,23,"6' 0""",161 lbs,,2001-11-27T08:00Z,Germany,337,Brentford
+321081,Antoni Milambo,Antoni Milambo,Antoni,Milambo,Antoni_Milambo,Midfielder,M,17,20,"5' 10""",150 lbs,,2005-04-03T08:00Z,Netherlands,337,Brentford
+342029,Yehor Yarmoliuk,Yehor Yarmoliuk,Yehor,Yarmoliuk,Yehor_Yarmoliuk,Midfielder,M,18,21,"5' 11""",159 lbs,,2004-03-01T08:00Z,Ukraine,337,Brentford
+357477,Romelle Donovan,Romelle Donovan,Romelle,Donovan,Romelle_Donovan,Midfielder,M,45,18,"5' 7""",,,2006-11-30T08:00Z,England,337,Brentford
+366990,Yunus Konak,Yunus Konak,Yunus,Konak,Yunus_Konak,Midfielder,M,26,19,"5' 11""",168 lbs,,2006-01-10T08:00Z,,337,Brentford
+227794,Reiss Nelson,Reiss Nelson,Reiss,Nelson,Reiss_Nelson,Forward,F,11,25,"5' 9""",157 lbs,,1999-12-10T08:00Z,England,337,Brentford
+284490,Keane Lewis-Potter,Keane Lewis-Potter,Keane,Lewis-Potter,Keane_Lewis-Potter,Forward,F,23,24,"5' 7""",148 lbs,,2001-02-22T08:00Z,England,337,Brentford
+301894,Igor Thiago,Igor Thiago,Igor,Thiago,Igor_Thiago,Forward,F,9,24,"6' 3""",185 lbs,,2001-06-26T07:00Z,Brazil,337,Brentford
+315530,Dango Ouattara,Dango Ouattara,Dango,Ouattara,Dango_Ouattara,Forward,F,19,23,"5' 10""",157 lbs,,2002-02-11T08:00Z,Burkina Faso,337,Brentford
+366004,Gustavo Nunes,Gustavo Nunes,Gustavo,Nunes,Gustavo_Nunes,Forward,F,39,19,"5' 8""",150 lbs,,2005-11-20T08:00Z,Brazil,337,Brentford

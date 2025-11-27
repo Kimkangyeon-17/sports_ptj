@@ -1,0 +1,35 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+179497,Matz Sels,Matz Sels,Matz,Sels,Matz_Sels,Goalkeeper,G,26,33,"6' 2""",163 lbs,,1992-02-26T08:00Z,Belgium,393,Nottingham Forest
+181299,Angus Gunn,Angus Gunn,Angus,Gunn,Angus_Gunn,Goalkeeper,G,18,29,"6' 5""",170 lbs,,1996-01-22T08:00Z,Scotland,393,Nottingham Forest
+233241,John,John,John,,John,Goalkeeper,G,13,29,"6' 5""",201 lbs,,1996-02-13T08:00Z,Brazil,393,Nottingham Forest
+351250,Keehan Willows,Keehan Willows,Keehan,Willows,Keehan_Willows,Goalkeeper,G,67,20,,,,2005-10-01T07:00Z,England,393,Nottingham Forest
+152349,Willy Boly,Willy Boly,Willy,Boly,Willy_Boly,Defender,D,30,34,"6' 5""",203 lbs,,1991-02-03T08:00Z,Ivory Coast,393,Nottingham Forest
+201304,Morato,Morato,Morato,,Morato,Defender,D,4,24,"6' 4""",192 lbs,,2001-06-30T07:00Z,Brazil,393,Nottingham Forest
+206227,Ola Aina,Ola Aina,Ola,Aina,Ola_Aina,Defender,D,34,29,"6' 0""",181 lbs,,1996-10-08T07:00Z,Nigeria,393,Nottingham Forest
+217482,Oleksandr Zinchenko,Oleksandr Zinchenko,Oleksandr,Zinchenko,Oleksandr_Zinchenko,Defender,D,35,28,"5' 9""",139 lbs,,1996-12-15T08:00Z,Ukraine,393,Nottingham Forest
+220467,Jack Thompson,Jack Thompson,Jack,Thompson,Jack_Thompson,Defender,D,58,20,,,,2005-05-05T07:00Z,England,393,Nottingham Forest
+238990,Nikola Milenkovic,Nikola Milenkovic,Nikola,Milenkovic,Nikola_Milenkovic,Defender,D,31,28,"6' 5""",196 lbs,,1997-10-12T07:00Z,Serbia,393,Nottingham Forest
+291638,Neco Williams,Neco Williams,Neco,Williams,Neco_Williams,Defender,D,3,24,"6' 0""",159 lbs,,2001-04-13T07:00Z,Wales,393,Nottingham Forest
+338876,Jair Paula,Jair Paula,Jair,Cunha,Jair_Paula,Defender,D,23,20,"6' 6""",192 lbs,,2005-03-07T08:00Z,Brazil,393,Nottingham Forest
+338894,Murillo,Murillo,Murillo,,Murillo,Defender,D,5,23,"5' 11""",163 lbs,,2002-07-04T07:00Z,Brazil,393,Nottingham Forest
+348303,Zach Abbott,Zach Abbott,Zach,Abbott,Zach_Abbott,Defender,D,44,19,"5' 11""",152 lbs,,2006-05-13T07:00Z,England,393,Nottingham Forest
+366236,Ben Hammond,Ben Hammond,Ben,Hammond,Ben_Hammond,Defender,D,64,21,,,,2004-10-02T07:00Z,Wales,393,Nottingham Forest
+388024,Nicolò Savona,Nicolò Savona,Nicolò,Savona,Nicolò_Savona,Defender,D,37,22,"6' 4""",174 lbs,,2003-03-19T08:00Z,Italy,393,Nottingham Forest
+213718,Ibrahim Sangaré,Ibrahim Sangaré,Ibrahim,Sangaré,Ibrahim_Sangaré,Midfielder,M,6,27,"6' 3""",170 lbs,,1997-12-02T08:00Z,Ivory Coast,393,Nottingham Forest
+238472,Elliot Anderson,Elliot Anderson,Elliot,Anderson,Elliot_Anderson,Midfielder,M,8,23,"5' 10""",150 lbs,,2002-11-06T08:00Z,England,393,Nottingham Forest
+241253,Ryan Yates,Ryan Yates,Ryan,Yates,Ryan_Yates,Midfielder,M,22,27,"6' 3""",192 lbs,,1997-11-21T08:00Z,England,393,Nottingham Forest
+243396,Morgan Gibbs-White,Morgan Gibbs-White,Morgan,Gibbs-White,Morgan_Gibbs-White,Midfielder,M,10,25,"5' 7""",146 lbs,,2000-01-27T08:00Z,England,393,Nottingham Forest
+254118,Nicolás Domínguez,Nicolás Domínguez,Nicolás,Domínguez,Nicolás_Domínguez,Midfielder,M,16,27,"5' 10""",161 lbs,,1998-06-28T07:00Z,Argentina,393,Nottingham Forest
+298518,James McAtee,James McAtee,James,McAtee,James_McAtee,Midfielder,M,24,23,"5' 11""",159 lbs,,2002-10-18T07:00Z,England,393,Nottingham Forest
+320074,Douglas Luiz,Douglas Luiz,Douglas,Luiz,Douglas_Luiz,Midfielder,M,12,27,"5' 9""",146 lbs,,1998-05-09T07:00Z,Brazil,393,Nottingham Forest
+366249,Jimmy Sinclair,Jimmy Sinclair,Jimmy,Sinclair,Jimmy_Sinclair,Midfielder,M,61,19,,,,2006-08-11T07:00Z,England,393,Nottingham Forest
+374133,Archie Whitehall,Archie Whitehall,Archie,Whitehall,Archie_Whitehall,Midfielder,M,51,19,,,,2006-05-21T07:00Z,England,393,Nottingham Forest
+134190,Chris Wood,Chris Wood,Chris,Wood,Chris_Wood,Forward,F,11,33,"6' 3""",179 lbs,,1991-12-07T08:00Z,New Zealand,393,Nottingham Forest
+194686,Taiwo Awoniyi,Taiwo Awoniyi,Taiwo,Awoniyi,Taiwo_Awoniyi,Forward,F,9,28,"6' 0""",183 lbs,,1997-08-12T07:00Z,Nigeria,393,Nottingham Forest
+261419,Callum Hudson-Odoi,Callum Hudson-Odoi,Callum,Hudson-Odoi,Callum_Hudson-Odoi,Forward,F,7,25,"6' 0""",168 lbs,,2000-11-07T08:00Z,England,393,Nottingham Forest
+275842,Dan Ndoye,Dan Ndoye,Dan,Ndoye,Dan_Ndoye,Forward,F,14,25,"6' 0""",172 lbs,,2000-10-25T07:00Z,Switzerland,393,Nottingham Forest
+287869,Igor Jesus,Igor Jesus,Igor Jesus,,Igor_Jesus,Forward,F,19,24,"5' 11""",161 lbs,,2001-02-25T08:00Z,Brazil,393,Nottingham Forest
+296321,Arnaud Kalimuendo,Arnaud Kalimuendo,Arnaud,Kalimuendo,Arnaud_Kalimuendo,Forward,F,15,23,"5' 10""",172 lbs,,2002-01-20T08:00Z,France,393,Nottingham Forest
+297157,Dilane Bakwa,Dilane Bakwa,Dilane,Bakwa,Dilane_Bakwa,Forward,F,29,23,"5' 11""",163 lbs,,2002-08-26T07:00Z,France,393,Nottingham Forest
+322771,Omari Hutchinson,Omari Hutchinson,Omari,Hutchinson,Omari_Hutchinson,Forward,F,21,22,"5' 9""",141 lbs,,2003-10-30T08:00Z,England,393,Nottingham Forest
+375234,Zyan Blake,Zyan Blake,Zyan,Blake,Zyan_Blake,Forward,F,77,17,,,,2007-11-13T08:00Z,England,393,Nottingham Forest

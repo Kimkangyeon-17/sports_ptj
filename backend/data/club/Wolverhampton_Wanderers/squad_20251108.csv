@@ -1,0 +1,27 @@
+player_id,name,full_name,first_name,last_name,wiki_name,position,position_abbr,jersey_number,age,height,weight,birth_place,birth_date,nationality,team_id,team_name
+143007,Daniel Bentley,Daniel Bentley,Daniel,Bentley,Daniel_Bentley,Goalkeeper,G,25,32,"6' 2""",161 lbs,,1993-07-13T07:00Z,England,380,Wolverhampton Wanderers
+162338,Sam Johnstone,Sam Johnstone,Sam,Johnstone,Sam_Johnstone,Goalkeeper,G,31,32,"6' 4""",185 lbs,,1993-03-25T08:00Z,England,380,Wolverhampton Wanderers
+181278,José Sá,José Sá,José,Sá,José_Sá,Goalkeeper,G,1,32,"6' 4""",183 lbs,,1993-01-17T08:00Z,Portugal,380,Wolverhampton Wanderers
+43575,Matt Doherty,Matt Doherty,Matt,Doherty,Matt_Doherty,Defender,D,2,33,"6' 1""",174 lbs,,1992-01-16T08:00Z,Republic of Ireland,380,Wolverhampton Wanderers
+151714,Ladislav Krejcí,Ladislav Krejcí,Ladislav,Krejcí,Ladislav_Krejcí,Defender,D,37,26,"6' 3""",192 lbs,,1999-04-20T07:00Z,Czechia,380,Wolverhampton Wanderers
+189777,Hugo Bueno,Hugo Bueno,Hugo,Bueno,Hugo_Bueno,Defender,D,3,23,"5' 11""",161 lbs,,2002-09-18T07:00Z,Spain,380,Wolverhampton Wanderers
+241225,Santiago Bueno,Santiago Bueno,Santiago,Bueno,Santiago_Bueno,Defender,D,4,26,"6' 3""",168 lbs,,1998-11-09T08:00Z,Uruguay,380,Wolverhampton Wanderers
+284591,Ki-Jana Hoever,Ki-Jana Hoever,Ki-Jana,Hoever,Ki-Jana_Hoever,Defender,D,26,23,"6' 0""",141 lbs,,2002-01-18T08:00Z,Netherlands,380,Wolverhampton Wanderers
+301462,Yerson Mosquera,Yerson Mosquera,Yerson,Mosquera,Yerson_Mosquera,Defender,D,15,24,"6' 2""",168 lbs,,2001-05-02T07:00Z,Colombia,380,Wolverhampton Wanderers
+308449,Emmanuel Agbadou,Emmanuel Agbadou,Emmanuel,Agbadou,Emmanuel_Agbadou,Defender,D,12,28,"6' 4""",174 lbs,,1997-06-17T07:00Z,Ivory Coast,380,Wolverhampton Wanderers
+308456,Rodrigo Gomes,Rodrigo Gomes,Rodrigo,Gomes,Rodrigo_Gomes,Defender,D,21,22,"5' 9""",148 lbs,,2003-07-07T07:00Z,Portugal,380,Wolverhampton Wanderers
+312186,Jackson Tchatchoua,Jackson Tchatchoua,Jackson,Tchatchoua,Jackson_Tchatchoua,Defender,D,38,24,"6' 1""",168 lbs,,2001-09-14T07:00Z,Cameroon,380,Wolverhampton Wanderers
+313361,David Wolfe,David Wolfe,David,Wolfe,David_Wolfe,Defender,D,6,23,"6' 1""",172 lbs,,2002-04-23T07:00Z,Norway,380,Wolverhampton Wanderers
+320848,Toti Gomes,Toti Gomes,Toti,Gomes,Toti_Gomes,Defender,D,24,26,"6' 2""",159 lbs,,1999-01-16T08:00Z,Portugal,380,Wolverhampton Wanderers
+239566,Jhon Arias,Jhon Arias,Jhon,Arias,Jhon_Arias,Midfielder,M,10,28,"5' 7""",170 lbs,,1997-09-21T07:00Z,Colombia,380,Wolverhampton Wanderers
+240369,Jean-Ricner Bellegarde,Jean-Ricner Bellegarde,Jean-Ricner,Bellegarde,Jean-Ricner_Bellegarde,Midfielder,M,27,27,"5' 7""",152 lbs,,1998-06-27T07:00Z,Haiti,380,Wolverhampton Wanderers
+266096,Marshall Munetsi,Marshall Munetsi,Marshall,Munetsi,Marshall_Munetsi,Midfielder,M,5,29,"6' 2""",183 lbs,,1996-06-22T07:00Z,Zimbabwe,380,Wolverhampton Wanderers
+301524,João Gomes,João Gomes,João,Gomes,João_Gomes,Midfielder,M,8,24,"5' 9""",161 lbs,,2001-02-12T08:00Z,Brazil,380,Wolverhampton Wanderers
+304216,André,André,André,,André,Midfielder,M,7,24,"5' 9""",170 lbs,,2001-07-16T07:00Z,Brazil,380,Wolverhampton Wanderers
+237224,Hwang Hee-Chan,Hwang Hee-Chan,Hwang,Hee-Chan,Hwang_Hee-Chan,Forward,F,11,29,"5' 10""",170 lbs,,1996-01-26T08:00Z,South Korea,380,Wolverhampton Wanderers
+252747,Jørgen Strand Larsen,Jørgen Strand Larsen,Jørgen Strand,Larsen,Jørgen_Strand_Larsen,Forward,F,9,25,"6' 4""",172 lbs,,2000-02-06T08:00Z,Norway,380,Wolverhampton Wanderers
+298938,Tawanda Chirewa,Tawanda Chirewa,Tawanda,Chirewa,Tawanda_Chirewa,Forward,F,23,22,"5' 11""",159 lbs,,2003-10-12T07:00Z,Zimbabwe,380,Wolverhampton Wanderers
+305372,Tolu Arokodare,Tolu Arokodare,Tolu,Arokodare,Tolu_Arokodare,Forward,F,14,24,"6' 6""",214 lbs,,2000-11-23T08:00Z,Nigeria,380,Wolverhampton Wanderers
+349723,Enso González,Enso González,Enso,González,Enso_González,Forward,F,30,20,"5' 7""",150 lbs,,2005-01-20T08:00Z,Paraguay,380,Wolverhampton Wanderers
+380196,Mateus Mane,Mateus Mane,Mateus,Mane,Mateus_Mane,Forward,F,36,18,"5' 9""",,,2007-09-16T07:00Z,England,380,Wolverhampton Wanderers
+395625,Fernando López,Fernando López,Fernando,López,Fernando_López,Forward,F,28,21,"6' 2""",168 lbs,,2004-05-24T07:00Z,Spain,380,Wolverhampton Wanderers
