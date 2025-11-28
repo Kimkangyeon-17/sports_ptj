@@ -20,10 +20,13 @@ class Command(BaseCommand):
 
         from datetime import date, timedelta
 
-        # 날짜 범위 설정 (과거 30일 ~ 미래 30일)
-        today = date.today()
-        start_date = today - timedelta(days=30)
-        end_date = today + timedelta(days=30)
+        # EPL 2025-26 시즌 (2025년 8월 ~ 2026년 5월)
+        start_date = date(2025, 8, 1)  # 2025-26 시즌 시작
+        end_date = date(2026, 5, 31)  # 2025-26 시즌 종료
+
+        self.stdout.write(
+            f"📅 2025-26 시즌: {start_date} ~ {end_date} 경기 데이터 수집 시작"
+        )
 
         total_created = 0
         total_updated = 0
@@ -113,17 +116,8 @@ class Command(BaseCommand):
             # 경기 상태
             status_data = competition.get("status", {})
             status_type = status_data.get("type", {}).get("name", "STATUS_SCHEDULED")
-
-            status_map = {
-                "STATUS_SCHEDULED": "scheduled",
-                "STATUS_IN_PROGRESS": "live",
-                "STATUS_FINAL": "finished",
-                "STATUS_HALFTIME": "live",
-                "STATUS_POSTPONED": "postponed",
-                "STATUS_CANCELED": "cancelled",
-                "STATUS_CANCELLED": "cancelled",
-            }
-            status = status_map.get(status_type, "scheduled")
+            state = status_data.get("type", {}).get("state", "")
+            completed = status_data.get("type", {}).get("completed", False)
 
             # 팀 정보
             competitors = competition.get("competitors", [])
@@ -147,6 +141,26 @@ class Command(BaseCommand):
                     self.style.WARNING(f"경기 {match_id}: 홈/원정 구분 실패")
                 )
                 return None
+
+            # 디버그: 경기 정보 및 상태 출력
+            self.stdout.write(
+                f"  경기: {home_team.get('team', {}).get('displayName', '')} vs {away_team.get('team', {}).get('displayName', '')}"
+            )
+            self.stdout.write(
+                f"    status_type: {status_type}, state: {state}, completed: {completed}"
+            )
+
+            status_map = {
+                "STATUS_SCHEDULED": "scheduled",
+                "STATUS_IN_PROGRESS": "live",
+                "STATUS_FINAL": "finished",
+                "STATUS_FULL_TIME": "finished",  # 추가
+                "STATUS_HALFTIME": "live",
+                "STATUS_POSTPONED": "postponed",
+                "STATUS_CANCELED": "cancelled",
+                "STATUS_CANCELLED": "cancelled",
+            }
+            status = status_map.get(status_type, "scheduled")
 
             # 경기장 정보
             venue_data = competition.get("venue", {})
