@@ -13,5 +13,6 @@ router.register(r"standings", TeamStandingViewSet, basename="standing")
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/accounts/", include("accounts.urls")),
+    path("api/", include("matches.urls")),
     path("api/", include(router.urls)),  # 통합된 라우터
 ]
