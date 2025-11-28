@@ -10,7 +10,7 @@ from django.core.exceptions import ValidationError
 import requests
 import os
 from .serializers import UserSerializer, UserRegisterSerializer, FavoriteTeamSerializer
-from teams.models import Team
+from teams.models import Team, TeamStanding
 from matches.models import Match
 
 User = get_user_model()
@@ -528,3 +528,165 @@ def past_favorite_matches(request):
             "matches": MatchListSerializer(matches, many=True).data,
         }
     )
+
+
+@api_view(["GET"])
+@permission_classes([IsAuthenticated])
+def main_dashboard(request):
+    """메인 대시보드 - 응원 팀별 통합 정보"""
+    user = request.user
+    favorite_teams = user.favorite_teams.all()
+
+    # 응원 팀이 없는 경우
+    if not favorite_teams.exists():
+        return Response({"favorite_teams": [], "latest_news": [], "ai_analysis": None})
+
+    dashboard_data = []
+
+    for team in favorite_teams:
+        team_data = get_team_dashboard_data(team)
+        dashboard_data.append(team_data)
+
+    response_data = {
+        "favorite_teams": dashboard_data,
+        "latest_news": [],
+        "ai_analysis": None,
+    }
+
+    return Response(response_data)
+
+
+def get_team_dashboard_data(team):
+    """팀별 대시보드 데이터 생성"""
+    from django.db.models import Q
+    from django.utils import timezone
+
+    team_id = team.team_id
+    team_name = team.team_name
+
+    # 1. 순위 정보
+    standing_data = None
+    try:
+        standing = TeamStanding.objects.get(team_name=team_name)
+        win_rate = (
+            (standing.wins / standing.matches_played * 100)
+            if standing.matches_played > 0
+            else 0
+        )
+
+        standing_data = {
+            "rank": standing.rank,
+            "points": standing.points,
+            "wins": standing.wins,
+            "draws": standing.draws,
+            "losses": standing.losses,
+            "win_rate": round(win_rate, 1),
+            "matches_played": standing.matches_played,
+            "goals_for": standing.goals_for,
+            "goals_against": standing.goals_against,
+            "goal_difference": standing.goal_difference,
+        }
+    except TeamStanding.DoesNotExist:
+        pass
+
+    # 2. 다음 경기
+    next_match_data = None
+    now = timezone.now()
+
+    next_match = (
+        Match.objects.filter(
+            Q(home_team_id=team_id) | Q(away_team_id=team_id),
+            match_date__gte=now,
+            status="scheduled",
+        )
+        .order_by("match_date")
+        .first()
+    )
+
+    if next_match:
+        is_home = next_match.home_team_id == team_id
+        opponent_name = (
+            next_match.away_team_name if is_home else next_match.home_team_name
+        )
+        opponent_logo = (
+            next_match.away_team_logo if is_home else next_match.home_team_logo
+        )
+
+        next_match_data = {
+            "match_id": next_match.match_id,
+            "match_date": next_match.match_date,
+            "opponent_name": opponent_name,
+            "opponent_logo": opponent_logo,
+            "is_home": is_home,
+            "venue": next_match.venue,
+        }
+
+    # 3. 최근 5경기 폼
+    recent_form_data = None
+
+    recent_matches = Match.objects.filter(
+        Q(home_team_id=team_id) | Q(away_team_id=team_id), status="finished"
+    ).order_by("-match_date")[:5]
+
+    if recent_matches:
+        form_list = []
+        form_korean_list = []
+        matches_data = []
+
+        for match in reversed(list(recent_matches)):  # 오래된 것부터
+            is_home = match.home_team_id == team_id
+            opponent = match.away_team_name if is_home else match.home_team_name
+            my_score = match.home_score if is_home else match.away_score
+            opp_score = match.away_score if is_home else match.home_score
+
+            # 승무패 판정
+            if my_score > opp_score:
+                result = "W"
+                result_korean = "승"
+            elif my_score < opp_score:
+                result = "L"
+                result_korean = "패"
+            else:
+                result = "D"
+                result_korean = "무"
+
+            form_list.append(result)
+            form_korean_list.append(result_korean)
+
+            matches_data.append(
+                {
+                    "match_date": match.match_date,
+                    "opponent": opponent,
+                    "result": result,
+                    "score": f"{my_score}-{opp_score}",
+                    "is_home": is_home,
+                }
+            )
+
+        recent_form_data = {
+            "form": "".join(form_list),
+            "form_korean": "-".join(form_korean_list),
+            "last_5_matches": matches_data,
+        }
+
+    # 팀 로고 가져오기 (경기 데이터에서)
+    team_logo = None
+    any_match = Match.objects.filter(
+        Q(home_team_id=team_id) | Q(away_team_id=team_id)
+    ).first()
+
+    if any_match:
+        team_logo = (
+            any_match.home_team_logo
+            if any_match.home_team_id == team_id
+            else any_match.away_team_logo
+        )
+
+    return {
+        "team_id": team_id,
+        "team_name": team_name,
+        "team_logo": team_logo,
+        "standing": standing_data,
+        "next_match": next_match_data,
+        "recent_form": recent_form_data,
+    }

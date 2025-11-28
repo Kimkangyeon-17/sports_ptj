@@ -17,6 +17,7 @@ from .views import (
     all_favorite_matches,
     upcoming_favorite_matches,
     past_favorite_matches,
+    main_dashboard,
 )
 
 urlpatterns = [
@@ -38,6 +39,8 @@ urlpatterns = [
     # 구글 로그인
     path("google/login/", google_login, name="google_login"),
     path("google/callback/", google_callback, name="google_callback"),
+    # 메인 대시보드
+    path("dashboard/", main_dashboard, name="main_dashboard"),
     # 응원 팀 관리
     path("favorite-teams/", my_favorite_teams, name="my_favorite_teams"),
     path("favorite-teams/add/", add_favorite_team, name="add_favorite_team"),
