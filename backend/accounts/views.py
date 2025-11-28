@@ -1,13 +1,17 @@
 from rest_framework import status, generics
-from rest_framework.decorators import api_view, permission_classes
+from rest_framework.decorators import api_view, permission_classes, action
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, AllowAny
+from rest_framework import viewsets
 from django.contrib.auth import get_user_model
 from django.shortcuts import redirect
 from rest_framework_simplejwt.tokens import RefreshToken
+from django.core.exceptions import ValidationError
 import requests
 import os
-from .serializers import UserSerializer, UserRegisterSerializer
+from .serializers import UserSerializer, UserRegisterSerializer, FavoriteTeamSerializer
+from teams.models import Team
+from matches.models import Match
 
 User = get_user_model()
 
@@ -268,5 +272,259 @@ def google_callback(request):
             "message": "구글 로그인 성공",
             "tokens": tokens,
             "user": UserSerializer(user).data,
+        }
+    )
+
+
+# ========================================
+# 응원 팀 관련 Views
+# ========================================
+
+
+@api_view(["GET"])
+@permission_classes([IsAuthenticated])
+def my_favorite_teams(request):
+    """내 응원 팀 목록"""
+    user = request.user
+    teams = user.favorite_teams.all()
+    serializer = FavoriteTeamSerializer(teams, many=True)
+    return Response({"count": teams.count(), "max_count": 3, "teams": serializer.data})
+
+
+@api_view(["POST"])
+@permission_classes([IsAuthenticated])
+def add_favorite_team(request):
+    """응원 팀 추가"""
+    team_id = request.data.get("team_id")
+
+    if not team_id:
+        return Response(
+            {"error": "team_id가 필요합니다."}, status=status.HTTP_400_BAD_REQUEST
+        )
+
+    try:
+        team = Team.objects.get(team_id=team_id)
+    except Team.DoesNotExist:
+        return Response(
+            {"error": "존재하지 않는 팀입니다."}, status=status.HTTP_404_NOT_FOUND
+        )
+
+    user = request.user
+
+    # 이미 응원 팀인지 확인
+    if user.favorite_teams.filter(team_id=team_id).exists():
+        return Response(
+            {"error": "이미 응원 팀으로 등록되어 있습니다."},
+            status=status.HTTP_400_BAD_REQUEST,
+        )
+
+    # 최대 3개 제한 확인
+    if user.favorite_teams.count() >= 3:
+        return Response(
+            {"error": "응원 팀은 최대 3개까지만 선택할 수 있습니다."},
+            status=status.HTTP_400_BAD_REQUEST,
+        )
+
+    user.favorite_teams.add(team)
+
+    return Response(
+        {
+            "message": f"{team.team_name}을(를) 응원 팀으로 추가했습니다.",
+            "team": FavoriteTeamSerializer(team).data,
+            "current_count": user.favorite_teams.count(),
+        }
+    )
+
+
+@api_view(["DELETE"])
+@permission_classes([IsAuthenticated])
+def remove_favorite_team(request, team_id):
+    """응원 팀 제거"""
+    try:
+        team = Team.objects.get(team_id=team_id)
+    except Team.DoesNotExist:
+        return Response(
+            {"error": "존재하지 않는 팀입니다."}, status=status.HTTP_404_NOT_FOUND
+        )
+
+    user = request.user
+
+    # 응원 팀인지 확인
+    if not user.favorite_teams.filter(team_id=team_id).exists():
+        return Response(
+            {"error": "응원 팀이 아닙니다."}, status=status.HTTP_400_BAD_REQUEST
+        )
+
+    user.favorite_teams.remove(team)
+
+    return Response(
+        {
+            "message": f"{team.team_name}을(를) 응원 팀에서 제거했습니다.",
+            "current_count": user.favorite_teams.count(),
+        }
+    )
+
+
+@api_view(["GET"])
+@permission_classes([IsAuthenticated])
+def all_favorite_matches(request):
+    """내 모든 응원 팀의 경기 일정 (예정+지난 모두)"""
+    user = request.user
+    favorite_teams = user.favorite_teams.all()
+
+    if not favorite_teams.exists():
+        return Response(
+            {
+                "message": "응원 팀이 없습니다.",
+                "teams": [],
+                "upcoming_matches": [],
+                "past_matches": [],
+            }
+        )
+
+    from django.db.models import Q
+    from django.utils import timezone
+
+    # 모든 응원 팀의 경기 조회
+    team_ids = [team.team_id for team in favorite_teams]
+
+    q_objects = Q()
+    for team_id in team_ids:
+        q_objects |= Q(home_team_id=team_id) | Q(away_team_id=team_id)
+
+    now = timezone.now()
+
+    # 예정된 경기 (날짜순)
+    upcoming_matches = Match.objects.filter(q_objects, match_date__gte=now).order_by(
+        "match_date"
+    )[:20]
+
+    # 지난 경기 (최신순)
+    past_matches = Match.objects.filter(q_objects, match_date__lt=now).order_by(
+        "-match_date"
+    )[:20]
+
+    from matches.serializers import MatchListSerializer
+
+    return Response(
+        {
+            "teams": FavoriteTeamSerializer(favorite_teams, many=True).data,
+            "upcoming_count": upcoming_matches.count(),
+            "past_count": past_matches.count(),
+            "upcoming_matches": MatchListSerializer(upcoming_matches, many=True).data,
+            "past_matches": MatchListSerializer(past_matches, many=True).data,
+        }
+    )
+
+
+@api_view(["GET"])
+@permission_classes([IsAuthenticated])
+def favorite_team_matches(request, team_id):
+    """특정 응원 팀의 경기 일정"""
+    user = request.user
+
+    # 응원 팀인지 확인
+    if not user.favorite_teams.filter(team_id=team_id).exists():
+        return Response(
+            {"error": "응원 팀이 아닙니다."}, status=status.HTTP_400_BAD_REQUEST
+        )
+
+    try:
+        team = Team.objects.get(team_id=team_id)
+    except Team.DoesNotExist:
+        return Response(
+            {"error": "존재하지 않는 팀입니다."}, status=status.HTTP_404_NOT_FOUND
+        )
+
+    from django.db.models import Q
+
+    # 해당 팀의 경기 조회
+    matches = Match.objects.filter(
+        Q(home_team_id=team_id) | Q(away_team_id=team_id)
+    ).order_by("-match_date")[:20]
+
+    from matches.serializers import MatchListSerializer
+
+    serializer = MatchListSerializer(matches, many=True)
+
+    return Response(
+        {
+            "team": FavoriteTeamSerializer(team).data,
+            "matches_count": matches.count(),
+            "matches": serializer.data,
+        }
+    )
+
+
+@api_view(["GET"])
+@permission_classes([IsAuthenticated])
+def upcoming_favorite_matches(request):
+    """내 응원 팀의 예정된 경기"""
+    user = request.user
+    favorite_teams = user.favorite_teams.all()
+
+    if not favorite_teams.exists():
+        return Response({"message": "응원 팀이 없습니다.", "teams": [], "matches": []})
+
+    from django.db.models import Q
+    from django.utils import timezone
+
+    team_ids = [team.team_id for team in favorite_teams]
+
+    q_objects = Q()
+    for team_id in team_ids:
+        q_objects |= Q(home_team_id=team_id) | Q(away_team_id=team_id)
+
+    now = timezone.now()
+
+    # 예정된 경기 (가까운 미래부터 - 오름차순)
+    matches = Match.objects.filter(q_objects, match_date__gte=now).order_by(
+        "match_date"
+    )[:20]
+
+    from matches.serializers import MatchListSerializer
+
+    return Response(
+        {
+            "teams": FavoriteTeamSerializer(favorite_teams, many=True).data,
+            "count": matches.count(),
+            "matches": MatchListSerializer(matches, many=True).data,
+        }
+    )
+
+
+@api_view(["GET"])
+@permission_classes([IsAuthenticated])
+def past_favorite_matches(request):
+    """내 응원 팀의 지난 경기"""
+    user = request.user
+    favorite_teams = user.favorite_teams.all()
+
+    if not favorite_teams.exists():
+        return Response({"message": "응원 팀이 없습니다.", "teams": [], "matches": []})
+
+    from django.db.models import Q
+    from django.utils import timezone
+
+    team_ids = [team.team_id for team in favorite_teams]
+
+    q_objects = Q()
+    for team_id in team_ids:
+        q_objects |= Q(home_team_id=team_id) | Q(away_team_id=team_id)
+
+    now = timezone.now()
+
+    # 지난 경기 (최근부터 - 내림차순)
+    matches = Match.objects.filter(q_objects, match_date__lt=now).order_by(
+        "-match_date"
+    )[:20]
+
+    from matches.serializers import MatchListSerializer
+
+    return Response(
+        {
+            "teams": FavoriteTeamSerializer(favorite_teams, many=True).data,
+            "count": matches.count(),
+            "matches": MatchListSerializer(matches, many=True).data,
         }
     )
