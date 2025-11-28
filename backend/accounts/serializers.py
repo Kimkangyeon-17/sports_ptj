@@ -1,11 +1,23 @@
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
+from teams.models import Team
 
 User = get_user_model()
 
 
+class FavoriteTeamSerializer(serializers.ModelSerializer):
+    """응원 팀 간단 정보"""
+
+    class Meta:
+        model = Team
+        fields = ["team_id", "team_name", "league"]
+
+
 class UserSerializer(serializers.ModelSerializer):
     """사용자 정보 시리얼라이저"""
+
+    favorite_teams = FavoriteTeamSerializer(many=True, read_only=True)
+    favorite_teams_count = serializers.IntegerField(read_only=True)
 
     class Meta:
         model = User
@@ -16,6 +28,8 @@ class UserSerializer(serializers.ModelSerializer):
             "nickname",
             "profile_image",
             "social_provider",
+            "favorite_teams",
+            "favorite_teams_count",
             "created_at",
         ]
         read_only_fields = ["id", "created_at", "social_provider"]

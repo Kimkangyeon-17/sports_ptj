@@ -10,6 +10,13 @@ from .views import (
     naver_callback,
     google_login,
     google_callback,
+    my_favorite_teams,
+    add_favorite_team,
+    remove_favorite_team,
+    favorite_team_matches,
+    all_favorite_matches,
+    upcoming_favorite_matches,
+    past_favorite_matches,
 )
 
 urlpatterns = [
@@ -31,4 +38,28 @@ urlpatterns = [
     # 구글 로그인
     path("google/login/", google_login, name="google_login"),
     path("google/callback/", google_callback, name="google_callback"),
+    # 응원 팀 관리
+    path("favorite-teams/", my_favorite_teams, name="my_favorite_teams"),
+    path("favorite-teams/add/", add_favorite_team, name="add_favorite_team"),
+    path(
+        "favorite-teams/remove/<str:team_id>/",
+        remove_favorite_team,
+        name="remove_favorite_team",
+    ),
+    path(
+        "favorite-teams/<str:team_id>/matches/",
+        favorite_team_matches,
+        name="favorite_team_matches",
+    ),
+    path("favorite-teams/matches/", all_favorite_matches, name="all_favorite_matches"),
+    path(
+        "favorite-teams/matches/upcoming/",
+        upcoming_favorite_matches,
+        name="upcoming_favorite_matches",
+    ),
+    path(
+        "favorite-teams/matches/past/",
+        past_favorite_matches,
+        name="past_favorite_matches",
+    ),
 ]
