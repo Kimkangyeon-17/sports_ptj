@@ -17,6 +17,12 @@ dependencies = [
     "psycopg2-binary>=2.9.11",
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
+
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langgraph>=0.2.0",
+    "langchain-upstage>=0.2.0",
+    "langchain-community>=0.3.0",
 ]
 
 [dependency-groups]
