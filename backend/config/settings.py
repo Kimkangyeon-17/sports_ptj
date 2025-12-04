@@ -63,6 +63,7 @@ INSTALLED_APPS = [
     "matches",
     "players",
     "ai_analysis",
+    "ai_agent",
 ]
 
 MIDDLEWARE = [
